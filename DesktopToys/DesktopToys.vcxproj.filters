@@ -84,6 +84,9 @@
     <ClInclude Include="Shooter3.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MusicPlay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DesktopToys.cpp">
@@ -146,6 +149,9 @@
     <ClCompile Include="Shooter3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MusicPlay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DesktopToys.rc">
@@ -156,10 +162,16 @@
     <None Include="res\DesktopToys.rc2">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\DesktopToys.ico">
       <Filter>资源文件</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="music1.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
   </ItemGroup>
 </Project>

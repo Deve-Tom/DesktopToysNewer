@@ -1,6 +1,7 @@
 #pragma once
 #include "Shooter.h"
 #include "Shooter0Mark.h"
+#include "MusicPlay.h"
 /*
 »Ã’ﬂ¿‡
 */
