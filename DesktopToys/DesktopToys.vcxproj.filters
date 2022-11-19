@@ -170,7 +170,7 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <Media Include="music1.mp3">
+    <Media Include="music\ninjamusic.mp3">
       <Filter>资源文件</Filter>
     </Media>
   </ItemGroup>

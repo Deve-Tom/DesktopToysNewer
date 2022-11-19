@@ -424,12 +424,12 @@ bool CShooter0::OnRButtonDown(UINT nFlags, CPoint point)
 
 	// 向右开火
 	if (ptDest.X > ptCenter.X) {
-		MusicPlay::playMusic();
+		MusicPlay::playMusic(MusicPlay::status::ninjaShock);
 		m_eStatus = EStatusFireRight;
 	}
 	// 向左开火
 	else {
-		MusicPlay::playMusic();
+		MusicPlay::playMusic(MusicPlay::status::ninjaShock);
 		m_eStatus = EStatusFireLeft;
 	}
 	// 重新开始计时
