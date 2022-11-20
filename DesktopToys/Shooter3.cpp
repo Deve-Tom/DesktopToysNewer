@@ -106,6 +106,7 @@ void CShooter3::Draw(Gdiplus::Graphics &gh)
 // Êó±ê×ó¼ü°´ÏÂ
 bool CShooter3::OnLButtonDown(UINT nFlags, CPoint point)
 {
+	MusicPlay::playMusic(MusicPlay::status::eraseShock);
 	m_status = EStatus::EStatusLeftDown;
 	return true;
 }

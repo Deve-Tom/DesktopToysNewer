@@ -106,6 +106,7 @@ bool CShooter2::OnLButtonDown(UINT nFlags, CPoint point)
 	switch (m_status) {
 	case EStatus::EStatusHammer: {
 		// ╢╦встроб
+		MusicPlay::playMusic(MusicPlay::status::hammerShock);
 		m_eStatusHammer = EStatusHammer::EStatusHammerDownFirst;
 		break;
 	}

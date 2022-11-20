@@ -4,26 +4,37 @@
 
 BOOL MusicPlay::playMusic_1()
 {
-
-    /*mciSendString(TEXT("open music1.mp3"), 0, 0, 0);
-    mciSendString(TEXT("play music1.mp3 repeat"), 0, 0, 0);
-    Sleep(600);
-    mciSendString(TEXT("close music1.mp3"), 0, 0, 0);*/
+    mciSendString(TEXT("open music\\ninjamusic.mp3"), 0, 0, 0);
+    mciSendString(TEXT("play music\\ninjamusic.mp3 repeat"), 0, 0, 0);
+    Sleep(800);
+    mciSendString(TEXT("close music\\ninjamusic.mp3"), 0, 0, 0);
     return 0;
 }
 
 BOOL MusicPlay::playMusic_2()
 {
+    mciSendString(TEXT("open music\\erase.mp3"), 0, 0, 0);
+    mciSendString(TEXT("play music\\erase.mp3 repeat"), 0, 0, 0);
+    Sleep(1500);
+    mciSendString(TEXT("close music\\erase.mp3"), 0, 0, 0);
     return 0;
 }
 
 BOOL MusicPlay::playMusic_3()
 {
+    mciSendString(TEXT("open music\\hammer.mp3"), 0, 0, 0);
+    mciSendString(TEXT("play music\\hammer.mp3 repeat"), 0, 0, 0);
+    Sleep(1500);
+    mciSendString(TEXT("close music\\hammer.mp3"), 0, 0, 0);
     return 0;
 }
 
 BOOL MusicPlay::playMusic_4()
 {
+    mciSendString(TEXT("open music\\brush.mp3"), 0, 0, 0);
+    mciSendString(TEXT("play music\\brush.mp3 repeat"), 0, 0, 0);
+    Sleep(800);
+    mciSendString(TEXT("close music\\brush.mp3"), 0, 0, 0);
     return 0;
 }
 

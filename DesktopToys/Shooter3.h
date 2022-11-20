@@ -1,6 +1,7 @@
 #pragma once
 #include "Shooter.h"
 #include "Shooter3Mark.h"
+#include "MusicPlay.h"
 class CShooter3 :
 	public CShooter
 {

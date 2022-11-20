@@ -253,6 +253,9 @@
     <Image Include="res\DesktopToys.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Media Include="music\brush.mp3" />
+    <Media Include="music\erase.mp3" />
+    <Media Include="music\hammer.mp3" />
     <Media Include="music\ninjamusic.mp3" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

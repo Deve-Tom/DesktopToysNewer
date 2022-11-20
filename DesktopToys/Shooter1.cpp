@@ -84,6 +84,7 @@ bool CShooter1::OnLButtonDown(UINT nFlags, CPoint point)
 {
 	//·ÛË¢×´Ì¬
 	m_status = 5;
+	MusicPlay::playMusic(MusicPlay::status::painterShock);
 	return true;
 }
 

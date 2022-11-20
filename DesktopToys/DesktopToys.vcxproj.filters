@@ -173,5 +173,14 @@
     <Media Include="music\ninjamusic.mp3">
       <Filter>资源文件</Filter>
     </Media>
+    <Media Include="music\hammer.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="music\erase.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="music\brush.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
   </ItemGroup>
 </Project>
