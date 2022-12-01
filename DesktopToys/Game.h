@@ -73,6 +73,7 @@ private:
 private:
 	//客户区大小
 	CRect m_rcClient;
+
 	//记录游戏每秒多少帧
 	int m_fps{ 0 };
 	//输出FPS文字用到的画刷

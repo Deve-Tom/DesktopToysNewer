@@ -1,0 +1,316 @@
+<Externals>
+<cr access="none" depth="0" pod="true" kind="struct" name="HDC__" id="dbc3d9eadc4c2f9671651b3c32427183_94bef293ec909b1e002d49c3d83c54ec" file="4" linestart="267" lineend="267"/>
+<cr access="none" depth="0" pod="true" kind="struct" name="HICON__" id="dbc3d9eadc4c2f9671651b3c32427183_888bbf4b5945f94542db33c420f409be" file="4" linestart="275" lineend="275"/>
+<cr access="none" depth="0" pod="true" kind="struct" name="tagMSG" id="e644c15804b2ed07c609eb9634566714_dd1b319b60c8dc6a5f334882448fb71c" file="5" linestart="1624" lineend="1634">
+<fl name="message" id="e644c15804b2ed07c609eb9634566714_38fa6f4bd306f79cbaee805e2757716a" file="5" linestart="1626" lineend="1626" isLiteral="true" access="public" proto="UINT">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fl>
+<fl name="wParam" id="e644c15804b2ed07c609eb9634566714_433663a4c032dfc604695b992da73fc4" file="5" linestart="1627" lineend="1627" isLiteral="true" access="public" proto="WPARAM">
+<Tdef>
+<Tdef>
+<bt name="unsigned long long"/>
+</Tdef>
+</Tdef>
+</fl>
+</cr>
+<cr access="none" depth="0" kind="class" name="CObject" id="78c3a41248bd193590c316917d231cb2_78c3f3be4aec419b9d038b4245ef4f54" file="6" linestart="557" lineend="607" previous="78c3a41248bd193590c316917d231cb2_78c3f3be4aec419b9d038b4245ef4f54"/>
+<cr access="none" depth="1" kind="class" name="CPoint" id="f44b3327f635dae02644aa512ae8a5c5_3313f7ddc49f6d502f29ccc41d646a29" file="7" linestart="74" lineend="125" previous="f44b3327f635dae02644aa512ae8a5c5_3313f7ddc49f6d502f29ccc41d646a29">
+<base access="public">
+<rt>
+<cr id="dbc3d9eadc4c2f9671651b3c32427183_b1f566919980e6677cca1e90cfed007f"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="1" kind="class" name="CRect" id="f44b3327f635dae02644aa512ae8a5c5_811db12c8da0b73c3123e68821b81a63" file="7" linestart="130" lineend="297" previous="f44b3327f635dae02644aa512ae8a5c5_811db12c8da0b73c3123e68821b81a63">
+<base access="public">
+<rt>
+<cr id="dbc3d9eadc4c2f9671651b3c32427183_25ee654fc4d784a3297c9294d415801a"/>
+</rt>
+</base>
+<c name="CRect" id="f44b3327f635dae02644aa512ae8a5c5_04b8d185f7fb118b8e816a3613363829" file="7" linestart="136" lineend="136" access="public" hasbody="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+<exception_specifiers nothrow="true"/>
+</fpt>
+</c>
+<m name="Width" id="f44b3327f635dae02644aa512ae8a5c5_061e343b0a89a5fb239de907d6fa2b16" file="7" linestart="160" lineend="160" access="public" hasbody="true">
+<fpt cc="cdecl" const="true" proto="int">
+<bt name="int"/>
+<exception_specifiers nothrow="true"/>
+</fpt>
+</m>
+<m name="Height" id="f44b3327f635dae02644aa512ae8a5c5_5fe4dfde6063e7bdc360fee4f450ca17" file="7" linestart="162" lineend="162" access="public" hasbody="true">
+<fpt cc="cdecl" const="true" proto="int">
+<bt name="int"/>
+<exception_specifiers nothrow="true"/>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="2" kind="class" name="CPaintDC" id="3ba310a394c52e56b01bffaabfaa12eb_bb324fe90d506b8083b34b61847f3a9b" file="8" linestart="990" lineend="1011" previous="3ba310a394c52e56b01bffaabfaa12eb_bb324fe90d506b8083b34b61847f3a9b">
+<base access="public">
+<rt>
+<cr id="3ba310a394c52e56b01bffaabfaa12eb_6d2c85bc74d48152ae931ba4af945ebb"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="AFX_MSGMAP" id="3ba310a394c52e56b01bffaabfaa12eb_3aefbe810673d879169b4c3b36a63767" file="8" linestart="1229" lineend="1233"/>
+<e access="none" name="AfxSig" id="b1d11881293c7a77fd3522781382ffa1_2e90b9b005cfa7d66beb4ea0a8333e48" file="9" linestart="79" lineend="254">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="AfxSig_end" id="b1d11881293c7a77fd3522781382ffa1_bb6cac538764a896e588133bd3346a48" file="9" linestart="81" lineend="81">
+<et>
+<e id="b1d11881293c7a77fd3522781382ffa1_2e90b9b005cfa7d66beb4ea0a8333e48"/>
+</et>
+</ec>
+<ec name="AfxSig_v_up_v" id="b1d11881293c7a77fd3522781382ffa1_4d0a61b6aaca408610c37fb8188cb56b" file="9" linestart="103" lineend="103">
+<et>
+<e id="b1d11881293c7a77fd3522781382ffa1_2e90b9b005cfa7d66beb4ea0a8333e48"/>
+</et>
+</ec>
+<ec name="AfxSig_vv" id="b1d11881293c7a77fd3522781382ffa1_3ec9baf8d7ae1f7bc5c92b061a1c84dc" file="9" linestart="190" lineend="190">
+<et>
+<e id="b1d11881293c7a77fd3522781382ffa1_2e90b9b005cfa7d66beb4ea0a8333e48"/>
+</et>
+</ec>
+<ec name="AfxSig_vwp" id="b1d11881293c7a77fd3522781382ffa1_fd3fca2087a354cffa1422ad9a81ec97" file="9" linestart="234" lineend="234">
+<et>
+<e id="b1d11881293c7a77fd3522781382ffa1_2e90b9b005cfa7d66beb4ea0a8333e48"/>
+</et>
+</ec>
+<ec name="AfxSig_hv" id="b1d11881293c7a77fd3522781382ffa1_260c45312752db44a3d72ac69de705c2" file="9" linestart="240" lineend="240">
+<et>
+<e id="b1d11881293c7a77fd3522781382ffa1_2e90b9b005cfa7d66beb4ea0a8333e48"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" kind="class" name="CDataExchange" id="3ba310a394c52e56b01bffaabfaa12eb_b69452ee67832fa167ae9138ede11be1" file="8" linestart="1284" lineend="1303" previous="3ba310a394c52e56b01bffaabfaa12eb_b69452ee67832fa167ae9138ede11be1"/>
+<cr access="none" depth="1" kind="class" name="CCmdTarget" id="3ba310a394c52e56b01bffaabfaa12eb_6e953593a2f476eb7fbef4099c87879f" file="8" linestart="1708" lineend="1880" previous="3ba310a394c52e56b01bffaabfaa12eb_6e953593a2f476eb7fbef4099c87879f">
+<base access="public">
+<rt>
+<cr id="78c3a41248bd193590c316917d231cb2_78c3f3be4aec419b9d038b4245ef4f54"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="AFX_MSGMAP_ENTRY" id="3ba310a394c52e56b01bffaabfaa12eb_0105a5320b0c7203d6e955f483769898" file="8" linestart="2124" lineend="2132" previous="3ba310a394c52e56b01bffaabfaa12eb_0105a5320b0c7203d6e955f483769898"/>
+<cr access="none" depth="2" kind="class" name="CWnd" id="3ba310a394c52e56b01bffaabfaa12eb_c2fb73585603c166dbd968e2d2075baf" file="8" linestart="2176" lineend="3287" previous="3ba310a394c52e56b01bffaabfaa12eb_c2fb73585603c166dbd968e2d2075baf">
+<base access="public">
+<rt>
+<cr id="3ba310a394c52e56b01bffaabfaa12eb_6e953593a2f476eb7fbef4099c87879f"/>
+</rt>
+</base>
+<e parent="3ba310a394c52e56b01bffaabfaa12eb_c2fb73585603c166dbd968e2d2075baf" access="public" name="AdjustType" id="3ba310a394c52e56b01bffaabfaa12eb_1360de6429278c401b3ac8ff53263c85" file="8" linestart="2269" lineend="2269">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="3ba310a394c52e56b01bffaabfaa12eb_c2fb73585603c166dbd968e2d2075baf" access="public" name="RepositionFlags" id="3ba310a394c52e56b01bffaabfaa12eb_4d42dc68a40ede15a1f7fedd03ae9e2e" file="8" linestart="2574" lineend="2575">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="none" depth="3" kind="class" name="CDialog" id="3ba310a394c52e56b01bffaabfaa12eb_32c28cd6964146c47f2994f984507464" file="8" linestart="3318" lineend="3418" previous="3ba310a394c52e56b01bffaabfaa12eb_32c28cd6964146c47f2994f984507464">
+<base access="public">
+<rt>
+<cr id="3ba310a394c52e56b01bffaabfaa12eb_c2fb73585603c166dbd968e2d2075baf"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="2" kind="class" name="CWinThread" id="3ba310a394c52e56b01bffaabfaa12eb_2ca9475401a9c17454c40a303d96ae60" file="8" linestart="4837" lineend="4916" previous="3ba310a394c52e56b01bffaabfaa12eb_2ca9475401a9c17454c40a303d96ae60">
+<base access="public">
+<rt>
+<cr id="3ba310a394c52e56b01bffaabfaa12eb_6e953593a2f476eb7fbef4099c87879f"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="3" kind="class" name="CWinApp" id="3ba310a394c52e56b01bffaabfaa12eb_a6c2e5938c187188dbc6f900345c0518" file="8" linestart="5130" lineend="5531" previous="3ba310a394c52e56b01bffaabfaa12eb_a6c2e5938c187188dbc6f900345c0518">
+<base access="public">
+<rt>
+<cr id="3ba310a394c52e56b01bffaabfaa12eb_2ca9475401a9c17454c40a303d96ae60"/>
+</rt>
+</base>
+<m name="LoadIconW" id="3ba310a394c52e56b01bffaabfaa12eb_9effc9f1f7374c71d9b7101083f9b306" file="8" linestart="5248" lineend="5248" access="public">
+<fpt cc="cdecl" const="true" proto="HICON">
+<Tdef>
+<pt>
+<ety>
+<rt>
+<cr id="dbc3d9eadc4c2f9671651b3c32427183_888bbf4b5945f94542db33c420f409be"/>
+</rt>
+</ety>
+</pt>
+</Tdef>
+</fpt>
+<p name="nIDResource" proto="UINT" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</m>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="0" kind="class" name="Rect" id="ed4f04595acffe9ccc64829d2de655ce_bc676ea32b0899d882f72284e0a3277f" file="10" linestart="530" lineend="712" previous="ed4f04595acffe9ccc64829d2de655ce_bc676ea32b0899d882f72284e0a3277f">
+<c name="Rect" id="ed4f04595acffe9ccc64829d2de655ce_16273b2cdd78c135bf433486b397e800" file="10" linestart="539" lineend="548" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="x" proto="INT" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="y" proto="INT" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="width" proto="INT" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="height" proto="INT" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+</c>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="0" kind="struct" name="GdiplusStartupInput" id="a0702088c3584f455672e3e06beea6d3_97a89619bd4aacb1740d1cfd5e1a131c" file="11" linestart="37" lineend="56"/>
+<cr namespace="Gdiplus" access="none" depth="0" pod="true" kind="struct" name="GdiplusStartupOutput" id="a0702088c3584f455672e3e06beea6d3_90b0741cb68a4af31283589ed93e7f2d" file="11" linestart="90" lineend="103"/>
+<cr namespace="Gdiplus" access="none" depth="2" kind="class" name="Bitmap" id="ff820a7d7a3bcdf383db67a14e9b8326_ed858f3aa5affd715df44cf5463457c7" file="12" linestart="494" lineend="635" previous="40b60188e33bc54bed7da2234a1d7327_ed858f3aa5affd715df44cf5463457c7">
+<base access="public">
+<rt>
+<cr id="ff820a7d7a3bcdf383db67a14e9b8326_800e7e20cec77c7e3c3d1e7a0039a76c"/>
+</rt>
+</base>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="1" kind="class" name="Graphics" id="4786edbcf042489a1a53185fcc31bbf4_eaa992a855d52242e56e372c45c2db2e" file="13" linestart="18" lineend="2415" previous="40b60188e33bc54bed7da2234a1d7327_eaa992a855d52242e56e372c45c2db2e">
+<base access="public">
+<rt>
+<cr id="2a2ef0eeca0c91234e4b5f9a05fe58a5_4bb21d1841e19f2fca4356b123608bc0"/>
+</rt>
+</base>
+<c name="Graphics" id="4786edbcf042489a1a53185fcc31bbf4_31bd3aa3472470cb973cc0fb452440ff" file="13" linestart="53" lineend="60" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="hdc" proto="HDC" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<ety>
+<rt>
+<cr id="dbc3d9eadc4c2f9671651b3c32427183_94bef293ec909b1e002d49c3d83c54ec"/>
+</rt>
+</ety>
+</pt>
+</Tdef>
+</p>
+</c>
+<m name="DrawImage" id="4786edbcf042489a1a53185fcc31bbf4_5f775a16136b7d1efcb348e4099be180" file="13" linestart="1554" lineend="1562" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="Gdiplus::Status">
+<et>
+<e id="ed4f04595acffe9ccc64829d2de655ce_e43e3ddf6a68fa1439f3700d18abf5e4"/>
+</et>
+</fpt>
+<p name="image" proto="Gdiplus::Image *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="ff820a7d7a3bcdf383db67a14e9b8326_800e7e20cec77c7e3c3d1e7a0039a76c"/>
+</rt>
+</pt>
+</p>
+<p name="rect" proto="const Gdiplus::Rect &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_bc676ea32b0899d882f72284e0a3277f"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<cr access="none" depth="4" kind="class" name="CDialogEx" id="eca2de178049ff37d1308ba334fcd90e_9ec4775724867b8f4a3ce6f8f9c8e7e1" file="14" linestart="27" lineend="89" previous="2449afb4f64d70a77185cf1d470043cc_9ec4775724867b8f4a3ce6f8f9c8e7e1">
+<base access="public">
+<rt>
+<cr id="3ba310a394c52e56b01bffaabfaa12eb_32c28cd6964146c47f2994f984507464"/>
+</rt>
+</base>
+<c name="CDialogEx" id="eca2de178049ff37d1308ba334fcd90e_17b8b7d7305e56861c17c4716656efb7" file="14" linestart="38" lineend="38" access="public">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="nIDTemplate" proto="UINT" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="pParent" proto="CWnd *" isPtr="true" isLiteral="true" init="true" access2="none">
+<pt>
+<rt>
+<cr id="3ba310a394c52e56b01bffaabfaa12eb_c2fb73585603c166dbd968e2d2075baf"/>
+</rt>
+</pt>
+</p>
+</c>
+<e parent="eca2de178049ff37d1308ba334fcd90e_9ec4775724867b8f4a3ce6f8f9c8e7e1" access="public" name="BackgroundLocation" id="eca2de178049ff37d1308ba334fcd90e_3552f31f562c2e58c185d86fa4ba9968" file="14" linestart="46" lineend="53">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<m name="GetThisMessageMap" id="eca2de178049ff37d1308ba334fcd90e_1e81482e2df4c2aa02f9e84f624b64e2" file="14" linestart="86" lineend="86" access="protected" storage="static">
+<Attributed/>
+</m>
+</cr>
+<cr namespace="std" access="none" depth="1" kind="class" name="shared_ptr" id="25660966a4a44d2c6610cbb32a932b78_657452b32ba868fc91dcb03961fc8493" file="15" linestart="437" lineend="698" previous="25660966a4a44d2c6610cbb32a932b78_657452b32ba868fc91dcb03961fc8493">
+<base access="public">
+<tss>
+<templatebase id="25660966a4a44d2c6610cbb32a932b78_32f35ab29bb69966d21a87eb554e1130"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+</cr>
+<cr access="public" depth="0" kind="class" name="CGame" id="f23bb5b01f35af7b608b086b6eeb266c_5973fd17ca21ca4400a64a1ea0d7ae24" file="16" linestart="9" lineend="97">
+<e parent="f23bb5b01f35af7b608b086b6eeb266c_5973fd17ca21ca4400a64a1ea0d7ae24" access="private" name="EGameStatus" id="f23bb5b01f35af7b608b086b6eeb266c_e84a53be7376bc37825edf6d16ca1186" file="16" linestart="70" lineend="70">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="none" depth="4" kind="class" name="CDesktopToysApp" id="392c1d7257c3a8b9bfa2ee506ba56c29_8f45e0ed2abcd76b98f32c3c496a6710" file="3" linestart="18" lineend="36">
+<base access="public">
+<rt>
+<cr id="3ba310a394c52e56b01bffaabfaa12eb_a6c2e5938c187188dbc6f900345c0518"/>
+</rt>
+</base>
+</cr>
+<f name="GetSystemMetrics" id="e644c15804b2ed07c609eb9634566714_d35d3635ea72e1c0428af81444f104fe" file="5" linestart="5891" lineend="5895" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="nIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+<f name="AfxGetApp" id="3ba310a394c52e56b01bffaabfaa12eb_bf446f9d20efc15c20269fefd3907538" file="8" linestart="4957" lineend="4957" access="none">
+<Attributed/>
+</f>
+</Externals>

@@ -1,0 +1,215 @@
+<Externals>
+<cr access="none" depth="0" pod="true" kind="struct" name="HWND__" id="dbc3d9eadc4c2f9671651b3c32427183_5847ad6971421591ff7da5abaa1ba10e" file="8" linestart="208" lineend="208"/>
+<cr access="none" depth="1" kind="class" name="CPoint" id="f44b3327f635dae02644aa512ae8a5c5_3313f7ddc49f6d502f29ccc41d646a29" file="9" linestart="74" lineend="125" previous="f44b3327f635dae02644aa512ae8a5c5_3313f7ddc49f6d502f29ccc41d646a29">
+<base access="public">
+<rt>
+<cr id="dbc3d9eadc4c2f9671651b3c32427183_b1f566919980e6677cca1e90cfed007f"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="1" kind="class" name="CRect" id="f44b3327f635dae02644aa512ae8a5c5_811db12c8da0b73c3123e68821b81a63" file="9" linestart="130" lineend="297" previous="f44b3327f635dae02644aa512ae8a5c5_811db12c8da0b73c3123e68821b81a63">
+<base access="public">
+<rt>
+<cr id="dbc3d9eadc4c2f9671651b3c32427183_25ee654fc4d784a3297c9294d415801a"/>
+</rt>
+</base>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="0" kind="class" name="PointF" id="ed4f04595acffe9ccc64829d2de655ce_9c766ec3843256f55d77fdcf874d865a" file="10" linestart="234" lineend="282" previous="ed4f04595acffe9ccc64829d2de655ce_9c766ec3843256f55d77fdcf874d865a"/>
+<cr namespace="Gdiplus" access="none" depth="0" kind="class" name="RectF" id="ed4f04595acffe9ccc64829d2de655ce_ee3d2a1cd2fd83b469337a90fe839ee7" file="10" linestart="342" lineend="524" previous="ed4f04595acffe9ccc64829d2de655ce_ee3d2a1cd2fd83b469337a90fe839ee7">
+<c name="RectF" id="ed4f04595acffe9ccc64829d2de655ce_04fae67a19f2765189342a30336c2099" file="10" linestart="351" lineend="360" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="x" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="y" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="width" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="height" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+</c>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="1" kind="class" name="Font" id="ff820a7d7a3bcdf383db67a14e9b8326_dcc41c639cce2ff84df94957c65f658b" file="11" linestart="244" lineend="301" previous="40b60188e33bc54bed7da2234a1d7327_dcc41c639cce2ff84df94957c65f658b">
+<base access="public">
+<rt>
+<cr id="2a2ef0eeca0c91234e4b5f9a05fe58a5_4bb21d1841e19f2fca4356b123608bc0"/>
+</rt>
+</base>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="1" kind="class" name="Image" id="ff820a7d7a3bcdf383db67a14e9b8326_800e7e20cec77c7e3c3d1e7a0039a76c" file="11" linestart="372" lineend="492" previous="40b60188e33bc54bed7da2234a1d7327_800e7e20cec77c7e3c3d1e7a0039a76c">
+<base access="public">
+<rt>
+<cr id="2a2ef0eeca0c91234e4b5f9a05fe58a5_4bb21d1841e19f2fca4356b123608bc0"/>
+</rt>
+</base>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="2" kind="class" name="Bitmap" id="ff820a7d7a3bcdf383db67a14e9b8326_ed858f3aa5affd715df44cf5463457c7" file="11" linestart="494" lineend="635" previous="40b60188e33bc54bed7da2234a1d7327_ed858f3aa5affd715df44cf5463457c7">
+<base access="public">
+<rt>
+<cr id="ff820a7d7a3bcdf383db67a14e9b8326_800e7e20cec77c7e3c3d1e7a0039a76c"/>
+</rt>
+</base>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="2" kind="class" name="SolidBrush" id="2b81bffca6fe47ad665252fba915c75d_417a18b1c71848fccf461e67061be21e" file="12" linestart="107" lineend="153" previous="40b60188e33bc54bed7da2234a1d7327_417a18b1c71848fccf461e67061be21e">
+<base access="public">
+<rt>
+<cr id="2b81bffca6fe47ad665252fba915c75d_3d7a3ebcda155a3ef752de6c2365ec11"/>
+</rt>
+</base>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="1" kind="class" name="Graphics" id="4786edbcf042489a1a53185fcc31bbf4_eaa992a855d52242e56e372c45c2db2e" file="13" linestart="18" lineend="2415" previous="40b60188e33bc54bed7da2234a1d7327_eaa992a855d52242e56e372c45c2db2e">
+<base access="public">
+<rt>
+<cr id="2a2ef0eeca0c91234e4b5f9a05fe58a5_4bb21d1841e19f2fca4356b123608bc0"/>
+</rt>
+</base>
+</cr>
+<cr namespace="std" access="none" depth="1" kind="class" name="shared_ptr" id="25660966a4a44d2c6610cbb32a932b78_657452b32ba868fc91dcb03961fc8493" file="14" linestart="437" lineend="698" previous="25660966a4a44d2c6610cbb32a932b78_657452b32ba868fc91dcb03961fc8493">
+<base access="public">
+<tss>
+<templatebase id="25660966a4a44d2c6610cbb32a932b78_32f35ab29bb69966d21a87eb554e1130"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+</cr>
+<cr namespace="std" access="none" depth="1" kind="class" name="vector" id="7ac319a6874a14641e137415d2ced56c_3d0ab7465d6b9448b8c01dc907d3e25b" file="15" linestart="678" lineend="1796">
+<base access="public">
+<tss>
+<templatebase id="7ac319a6874a14641e137415d2ced56c_05d3bbcccbfa4b3b58c141a4ec6ed389"/>
+<template_arguments>
+<tss>
+<templatebase id="7ac319a6874a14641e137415d2ced56c_6a7cfa317aaf33a284de4e9d43f7bf95"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</base>
+</cr>
+<cr access="none" depth="0" kind="class" name="CGameTimeval" id="13dbbf7801f929f340cedf1cf82eb44f_6a241e80d992fff8ce06c3a5ddc1bd62" file="16" linestart="37" lineend="85"/>
+<cr access="none" depth="0" kind="class" name="IDrawable" id="3528960a5546ff290460a754bd8906d2_a5ce70a630ecb95972162be0b10ab274" file="17" linestart="2" lineend="68">
+<c name="IDrawable" id="3528960a5546ff290460a754bd8906d2_db27efb8d72531f07b187a4d2c75ecb4" file="17" linestart="5" lineend="5" access="public">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<cr access="none" depth="0" kind="class" name="IMouseAction" id="2d3a9f316f3c416ff2142164914d1d01_101138aaadbb5f92745906b14d86b6b8" file="18" linestart="2" lineend="24"/>
+<cr access="none" depth="1" kind="class" name="CShooter" id="fce79102ce407fa83183e36dcc057592_ab748c85097560ff23dfe108797ce918" file="19" linestart="5" lineend="11">
+<base access="public">
+<rt>
+<cr id="2d3a9f316f3c416ff2142164914d1d01_101138aaadbb5f92745906b14d86b6b8"/>
+</rt>
+</base>
+<base access="public">
+<rt>
+<cr id="3528960a5546ff290460a754bd8906d2_a5ce70a630ecb95972162be0b10ab274"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="2" kind="class" name="CShooter0" id="e8a3958e0d238e8b84c7ed81bfe7da4a_d0c6b09a4cfad2e920742b35d05bb639" file="2" linestart="8" lineend="118">
+<base access="public">
+<rt>
+<cr id="fce79102ce407fa83183e36dcc057592_ab748c85097560ff23dfe108797ce918"/>
+</rt>
+</base>
+<e parent="e8a3958e0d238e8b84c7ed81bfe7da4a_d0c6b09a4cfad2e920742b35d05bb639" access="private" name="EStatus" id="e8a3958e0d238e8b84c7ed81bfe7da4a_6db7dc277714048e1516bee2969afed1" file="2" linestart="57" lineend="71">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="none" depth="2" kind="class" name="CShooter2Mark" id="8d881994dbd9675612f39b8e433b496b_757a46af7d2014bb2c33b6f50ebdd5a0" file="3" linestart="3" lineend="31">
+<base access="public">
+<rt>
+<cr id="5d8b6dc64d787e6a8e85dc7ccee0dba0_03c69894f1b6ce1fa392ccc13254f130"/>
+</rt>
+</base>
+<cr parent="8d881994dbd9675612f39b8e433b496b_757a46af7d2014bb2c33b6f50ebdd5a0" access="private" depth="0" kind="struct" name="SDynamic" id="8d881994dbd9675612f39b8e433b496b_0e19342ea86529656ea96d1be3911813" file="3" linestart="17" lineend="27"/>
+</cr>
+<cr access="none" depth="2" kind="class" name="CShooter3Mark" id="815a85e0a2cab50ff27181f51288c292_104ee57fb727b7731b4514e99fe7bab0" file="4" linestart="3" lineend="31">
+<base access="public">
+<rt>
+<cr id="5d8b6dc64d787e6a8e85dc7ccee0dba0_03c69894f1b6ce1fa392ccc13254f130"/>
+</rt>
+</base>
+<cr parent="815a85e0a2cab50ff27181f51288c292_104ee57fb727b7731b4514e99fe7bab0" access="private" depth="0" kind="struct" name="SDynamic" id="815a85e0a2cab50ff27181f51288c292_24a5c55bd6745474dea25a597b4cb10a" file="4" linestart="19" lineend="29"/>
+</cr>
+<cr access="none" depth="2" kind="class" name="CShooter3" id="39da6057b9abb1854fd82d6d60ed7849_aad7b18fda5b48c764f6fdaa7625d4aa" file="5" linestart="5" lineend="57">
+<base access="public">
+<rt>
+<cr id="fce79102ce407fa83183e36dcc057592_ab748c85097560ff23dfe108797ce918"/>
+</rt>
+</base>
+<e parent="39da6057b9abb1854fd82d6d60ed7849_aad7b18fda5b48c764f6fdaa7625d4aa" access="private" name="EStatus" id="39da6057b9abb1854fd82d6d60ed7849_da25264c781704ff4a2fad64547f2089" file="5" linestart="45" lineend="45" scoped="true" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="public" depth="1" kind="class" name="CDMenu" id="c9d5b0363e6b9cd278fef175582568d5_9419921de7dbb634b72d607829fb680c" file="20" linestart="14" lineend="61">
+<base access="public">
+<rt>
+<cr id="3528960a5546ff290460a754bd8906d2_a5ce70a630ecb95972162be0b10ab274"/>
+</rt>
+</base>
+<base access="public">
+<rt>
+<cr id="2d3a9f316f3c416ff2142164914d1d01_101138aaadbb5f92745906b14d86b6b8"/>
+</rt>
+</base>
+<e parent="c9d5b0363e6b9cd278fef175582568d5_9419921de7dbb634b72d607829fb680c" access="private" name="EStatus" id="c9d5b0363e6b9cd278fef175582568d5_0bdfbc9a249cf7d227f2629664229c6f" file="20" linestart="51" lineend="59">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="public" depth="0" kind="class" name="CGame" id="f23bb5b01f35af7b608b086b6eeb266c_5973fd17ca21ca4400a64a1ea0d7ae24" file="6" linestart="9" lineend="97">
+<fl name="m_x" id="f23bb5b01f35af7b608b086b6eeb266c_fb54e6d06c8933132e60e8eefda9229f" file="6" linestart="62" lineend="62" isLiteral="true" access="private" proto="float">
+<bt name="float"/>
+</fl>
+<fl name="m_y" id="f23bb5b01f35af7b608b086b6eeb266c_bee30b2428ea9c7b504842ca61d0af07" file="6" linestart="63" lineend="63" isLiteral="true" access="private" proto="float">
+<bt name="float"/>
+</fl>
+<fl name="m_width" id="f23bb5b01f35af7b608b086b6eeb266c_a20831dd0ee287378a4f113da8f0dc7f" file="6" linestart="66" lineend="66" isLiteral="true" access="private" proto="float">
+<bt name="float"/>
+</fl>
+<fl name="m_height" id="f23bb5b01f35af7b608b086b6eeb266c_aa86772f3731433b5a7d66da91954378" file="6" linestart="67" lineend="67" isLiteral="true" access="private" proto="float">
+<bt name="float"/>
+</fl>
+<e parent="f23bb5b01f35af7b608b086b6eeb266c_5973fd17ca21ca4400a64a1ea0d7ae24" access="private" name="EGameStatus" id="f23bb5b01f35af7b608b086b6eeb266c_e84a53be7376bc37825edf6d16ca1186" file="6" linestart="70" lineend="70">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+</Externals>

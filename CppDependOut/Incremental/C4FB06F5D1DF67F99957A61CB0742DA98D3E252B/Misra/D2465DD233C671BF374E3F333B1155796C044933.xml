@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cppdepend-plugin tool="Misra">
+<file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplusgraphics.h"><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplustypes.h"><violation beginline="128" endline="128" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="234" endline="234" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="429" endline="429" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="128" endline="128" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="128" endline="128" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft visual studio 14.0\vc\include\cmath"><violation beginline="86" endline="86" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="293" endline="293" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="86" endline="86" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="293" endline="293" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\idrawable.h"><violation beginline="17" endline="17" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="39" endline="39" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="57" endline="57" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\menuitem.cpp"><violation beginline="12" endline="12" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="60" endline="60" rule="Rule6-6-5" ruleset="Statements">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\menuitem.h"><violation beginline="45" endline="45" rule="Rule5-14-1" ruleset="Statements">
+</violation><violation beginline="55" endline="55" rule="Rule11-0-1" ruleset="Classes">
+</violation><violation beginline="55" endline="55" rule="Rule11-0-1" ruleset="Classes">
+</violation></file></cppdepend-plugin>

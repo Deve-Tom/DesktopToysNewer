@@ -20,9 +20,11 @@ CDMenu::CDMenu(HWND hWnd):m_hWnd(hWnd)
 		_T("images/MenuItem03.png"), _T("同桌的橡皮"));
 
 	{
+		// 获取屏幕大小 并通过上下左右相减 获得屏幕中心位置
 		RECT rc;
 		GetWindowRect(m_hWnd, &rc);
 		PointF pt((rc.right - rc.left) / 2.0f, (rc.bottom - rc.top) / 2.0f);   //设置菜单到中间位置
+		//将中心位置进行保存
 		SetCenterPos(pt);
 	}
 
@@ -30,9 +32,7 @@ CDMenu::CDMenu(HWND hWnd):m_hWnd(hWnd)
 }
 
 
-CDMenu::~CDMenu()
-{
-}
+CDMenu::~CDMenu(){}
 
 void CDMenu::InitAnimateInfo0()
 {
@@ -49,6 +49,7 @@ void CDMenu::InitAnimateInfo0()
 	m_item2->SetCenterPos(pt);
 	m_item3->SetCenterPos(pt);
 
+	// 设置盖子的位置
 	// 盖子的中心点在箱子的上面
 	{
 		PointF pt2 = pt;
@@ -56,6 +57,7 @@ void CDMenu::InitAnimateInfo0()
 		m_cover->SetCenterPos(pt2);	//m_cover为 打开的盖子
 	}
 
+	//设置盖子的位置
 	{
 		PointF pt2 = pt;
 		pt2.Y -= 30;

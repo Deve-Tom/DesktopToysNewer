@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cppdepend-plugin tool="Misra">
+<file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\winuser.h"><violation beginline="7372" endline="7372" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="7372" endline="7372" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="7365" endline="7365" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\dmenu.cpp"><violation beginline="80" endline="80" rule="Rule6-4-4" ruleset="Statements">
+</violation><violation beginline="193" endline="193" rule="Rule6-6-5" ruleset="Statements">
+</violation><violation beginline="225" endline="225" rule="Rule6-6-5" ruleset="Statements">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\dmenu.h"><violation beginline="21" endline="21" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\shooter3mark.h"><violation beginline="19" endline="19" rule="Rule11-0-1" ruleset="Classes">
+</violation><violation beginline="19" endline="19" rule="Rule11-0-1" ruleset="Classes">
+</violation></file></cppdepend-plugin>

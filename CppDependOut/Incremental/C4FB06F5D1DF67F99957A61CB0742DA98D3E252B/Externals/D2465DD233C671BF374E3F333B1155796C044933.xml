@@ -1,0 +1,428 @@
+<Externals>
+<cr access="none" depth="0" pod="true" kind="struct" name="tagPOINT" id="dbc3d9eadc4c2f9671651b3c32427183_b1f566919980e6677cca1e90cfed007f" file="3" linestart="339" lineend="343">
+<fl name="x" id="dbc3d9eadc4c2f9671651b3c32427183_d6d4c148dfc2fc2889290774ffa4234a" file="3" linestart="341" lineend="341" isLiteral="true" access="public" proto="LONG">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</fl>
+<fl name="y" id="dbc3d9eadc4c2f9671651b3c32427183_dc50d8dafb0e47045a08ce00c6191e24" file="3" linestart="342" lineend="342" isLiteral="true" access="public" proto="LONG">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</fl>
+</cr>
+<cr access="none" depth="1" kind="class" name="CPoint" id="f44b3327f635dae02644aa512ae8a5c5_3313f7ddc49f6d502f29ccc41d646a29" file="4" linestart="74" lineend="125" previous="f44b3327f635dae02644aa512ae8a5c5_3313f7ddc49f6d502f29ccc41d646a29">
+<base access="public">
+<rt>
+<cr id="dbc3d9eadc4c2f9671651b3c32427183_b1f566919980e6677cca1e90cfed007f"/>
+</rt>
+</base>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="0" kind="class" name="SizeF" id="ed4f04595acffe9ccc64829d2de655ce_bdf1ef538f514327c6174e87a9f3e940" file="5" linestart="128" lineend="175" previous="ed4f04595acffe9ccc64829d2de655ce_bdf1ef538f514327c6174e87a9f3e940">
+<fl name="Width" id="ed4f04595acffe9ccc64829d2de655ce_94d9c7045e44e69349a1547fd683b5e2" file="5" linestart="173" lineend="173" isLiteral="true" access="public" proto="REAL">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</fl>
+<fl name="Height" id="ed4f04595acffe9ccc64829d2de655ce_64e67d0507d307dc4b346e0c4ede0824" file="5" linestart="174" lineend="174" isLiteral="true" access="public" proto="REAL">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</fl>
+<m name="operator=" id="ed4f04595acffe9ccc64829d2de655ce_5b3f25ee78cdc437997cb0b8e49db305" file="5" linestart="128" lineend="128" implicit="true" operator="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="Gdiplus::SizeF &amp;">
+<lrf>
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_bdf1ef538f514327c6174e87a9f3e940"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="const Gdiplus::SizeF &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_bdf1ef538f514327c6174e87a9f3e940"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="0" kind="class" name="PointF" id="ed4f04595acffe9ccc64829d2de655ce_9c766ec3843256f55d77fdcf874d865a" file="5" linestart="234" lineend="282" previous="ed4f04595acffe9ccc64829d2de655ce_9c766ec3843256f55d77fdcf874d865a">
+<fl name="X" id="ed4f04595acffe9ccc64829d2de655ce_9973f71807d8ed1a465632c2e632ea9e" file="5" linestart="280" lineend="280" isLiteral="true" access="public" proto="REAL">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</fl>
+<fl name="Y" id="ed4f04595acffe9ccc64829d2de655ce_8c059742f8dd6ce8207415843092e711" file="5" linestart="281" lineend="281" isLiteral="true" access="public" proto="REAL">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</fl>
+<m name="operator=" id="ed4f04595acffe9ccc64829d2de655ce_b46f54ed14f46411f0e1e97f76cf425d" file="5" linestart="234" lineend="234" implicit="true" operator="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="Gdiplus::PointF &amp;">
+<lrf>
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_9c766ec3843256f55d77fdcf874d865a"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="const Gdiplus::PointF &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_9c766ec3843256f55d77fdcf874d865a"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="0" kind="class" name="RectF" id="ed4f04595acffe9ccc64829d2de655ce_ee3d2a1cd2fd83b469337a90fe839ee7" file="5" linestart="342" lineend="524" previous="ed4f04595acffe9ccc64829d2de655ce_ee3d2a1cd2fd83b469337a90fe839ee7">
+<c name="RectF" id="ed4f04595acffe9ccc64829d2de655ce_04fae67a19f2765189342a30336c2099" file="5" linestart="351" lineend="360" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="x" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="y" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="width" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="height" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+</c>
+<m name="Contains" id="ed4f04595acffe9ccc64829d2de655ce_372098e4a601b64003658debea4ee950" file="5" linestart="429" lineend="434" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" const="true" proto="BOOL">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</fpt>
+<p name="x" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="y" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+</m>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="1" kind="class" name="Image" id="ff820a7d7a3bcdf383db67a14e9b8326_800e7e20cec77c7e3c3d1e7a0039a76c" file="6" linestart="372" lineend="492" previous="40b60188e33bc54bed7da2234a1d7327_800e7e20cec77c7e3c3d1e7a0039a76c">
+<base access="public">
+<rt>
+<cr id="2a2ef0eeca0c91234e4b5f9a05fe58a5_4bb21d1841e19f2fca4356b123608bc0"/>
+</rt>
+</base>
+<m name="FromFile" id="ff820a7d7a3bcdf383db67a14e9b8326_21c7b91231fc68cc33f18d4347d44aa2" file="6" linestart="389" lineend="392" access="public" storage="static" hasbody="true">
+<fpt cc="cdecl" proto="Gdiplus::Image *">
+<pt>
+<rt>
+<cr id="ff820a7d7a3bcdf383db67a14e9b8326_800e7e20cec77c7e3c3d1e7a0039a76c"/>
+</rt>
+</pt>
+</fpt>
+<p name="filename" proto="const WCHAR *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</p>
+<p name="useEmbeddedColorManagement" proto="BOOL" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+</m>
+<m name="GetWidth" id="ff820a7d7a3bcdf383db67a14e9b8326_c50278d511bdccf0b816564ae2fcd291" file="6" linestart="417" lineend="417" access="public" hasbody="true">
+<fpt cc="cdecl" proto="UINT">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fpt>
+</m>
+<m name="GetHeight" id="ff820a7d7a3bcdf383db67a14e9b8326_5d2d13749430cde585b71f41b0cb85ee" file="6" linestart="418" lineend="418" access="public" hasbody="true">
+<fpt cc="cdecl" proto="UINT">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fpt>
+</m>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="1" kind="class" name="Graphics" id="4786edbcf042489a1a53185fcc31bbf4_eaa992a855d52242e56e372c45c2db2e" file="7" linestart="18" lineend="2415" previous="40b60188e33bc54bed7da2234a1d7327_eaa992a855d52242e56e372c45c2db2e">
+<base access="public">
+<rt>
+<cr id="2a2ef0eeca0c91234e4b5f9a05fe58a5_4bb21d1841e19f2fca4356b123608bc0"/>
+</rt>
+</base>
+<m name="DrawImage" id="4786edbcf042489a1a53185fcc31bbf4_5d5c9b779b93754296abb0df5bca1380" file="7" linestart="1516" lineend="1520" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="Gdiplus::Status">
+<et>
+<e id="ed4f04595acffe9ccc64829d2de655ce_e43e3ddf6a68fa1439f3700d18abf5e4"/>
+</et>
+</fpt>
+<p name="image" proto="Gdiplus::Image *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="ff820a7d7a3bcdf383db67a14e9b8326_800e7e20cec77c7e3c3d1e7a0039a76c"/>
+</rt>
+</pt>
+</p>
+<p name="rect" proto="const Gdiplus::RectF &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_ee3d2a1cd2fd83b469337a90fe839ee7"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<tm namespace="std" access="none" depth="0" pod="true" kind="struct" name="_Simple_types" id="6296f70cc969544ce1f87c96145b57ec_d16a5f6f5bc0b20f10361aff0d9f12b0" file="8" linestart="169" lineend="179">
+<template_parameters>
+<ttp name="_Value_type" id="6296f70cc969544ce1f87c96145b57ec_626879621e24d9f9efce904904e1301a" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="0" pod="true" kind="struct" name="_Simple_types" id="6296f70cc969544ce1f87c96145b57ec_d16a5f6f5bc0b20f10361aff0d9f12b0" file="8" linestart="170" lineend="179">
+<cr access="public" kind="struct" name="_Simple_types" id="6296f70cc969544ce1f87c96145b57ec_38ff670ba6ed0695cb920edab05f4ac5" file="8" linestart="170" lineend="170"/>
+</cr>
+</tm>
+<tm namespace="std" access="none" depth="2" kind="class" name="_Vector_iterator" id="7ac319a6874a14641e137415d2ced56c_dba628d08bbaf73e696cb0d4b6e80686" file="9" linestart="293" lineend="397">
+<template_parameters>
+<ttp name="_Myvec" id="7ac319a6874a14641e137415d2ced56c_18acb65bb3c5fb8de0fb206b98054de5" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="2" kind="class" name="_Vector_iterator" id="7ac319a6874a14641e137415d2ced56c_dba628d08bbaf73e696cb0d4b6e80686" file="9" linestart="294" lineend="397">
+<base access="public">
+<tss>
+<templatebase id="7ac319a6874a14641e137415d2ced56c_695a37e33887535b74b2309b71bda977"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="_Vector_iterator" id="7ac319a6874a14641e137415d2ced56c_3d10061ec036575db3efd2ae44b233b6" file="9" linestart="294" lineend="294"/>
+</cr>
+</tm>
+<tm namespace="std" access="none" depth="1" kind="class" name="_Vector_val" id="7ac319a6874a14641e137415d2ced56c_2d19cd24e0e0434835874d345df47fd5" file="9" linestart="466" lineend="494">
+<template_parameters>
+<ttp name="_Val_types" id="7ac319a6874a14641e137415d2ced56c_a14290b47784eb7bfff7ad524aba2af7" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="1" kind="class" name="_Vector_val" id="7ac319a6874a14641e137415d2ced56c_2d19cd24e0e0434835874d345df47fd5" file="9" linestart="467" lineend="494">
+<base access="public">
+<Tdef>
+<rt>
+<cr id="b08c89033375a7836d715d392b71174f_ce449a57a371fbc057aa1719d4872f13"/>
+</rt>
+</Tdef>
+</base>
+<cr access="public" kind="class" name="_Vector_val" id="7ac319a6874a14641e137415d2ced56c_d608691dcf25a214a3f098292e72535e" file="9" linestart="467" lineend="467"/>
+</cr>
+</tm>
+<tm namespace="std" access="none" depth="1" kind="class" name="vector" id="7ac319a6874a14641e137415d2ced56c_3d0ab7465d6b9448b8c01dc907d3e25b" file="9" linestart="676" lineend="1796">
+<template_parameters>
+<ttp name="_Ty" id="7ac319a6874a14641e137415d2ced56c_4d7373ffb16edf838a9e31b6a15123d0" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="_Alloc" id="7ac319a6874a14641e137415d2ced56c_a64350a4dca23860ec579d1ba0da5aed" depth="0" index="1" proto="type-parameter-0-1">
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</ttp>
+</template_parameters>
+<cr namespace="std" access="none" depth="1" kind="class" name="vector" id="7ac319a6874a14641e137415d2ced56c_3d0ab7465d6b9448b8c01dc907d3e25b" file="9" linestart="678" lineend="1796">
+<base access="public">
+<tss>
+<templatebase id="7ac319a6874a14641e137415d2ced56c_05d3bbcccbfa4b3b58c141a4ec6ed389"/>
+<template_arguments>
+<tss>
+<templatebase id="7ac319a6874a14641e137415d2ced56c_6a7cfa317aaf33a284de4e9d43f7bf95"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="vector" id="7ac319a6874a14641e137415d2ced56c_c48c2bde2c144b6d614d5912fe2271ba" file="9" linestart="678" lineend="678"/>
+<m name="begin" id="7ac319a6874a14641e137415d2ced56c_de8a9d48785e0506760a39ca20325c3f" file="9" linestart="1056" lineend="1059" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="iterator">
+<Tdef>
+<DependentName/>
+</Tdef>
+</fpt>
+</m>
+<m name="end" id="7ac319a6874a14641e137415d2ced56c_f110db10e5d92da68a9caaaa2ea25c7a" file="9" linestart="1066" lineend="1069" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="iterator">
+<Tdef>
+<DependentName/>
+</Tdef>
+</fpt>
+</m>
+<m name="size" id="7ac319a6874a14641e137415d2ced56c_4d302b215534245d1eabe876b749053e" file="9" linestart="1178" lineend="1181" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" const="true" proto="size_type">
+<Tdef>
+<DependentName/>
+</Tdef>
+</fpt>
+</m>
+<m name="operator[]" id="7ac319a6874a14641e137415d2ced56c_ae7695ce3b759ed003feb35e26351606" file="9" linestart="1229" lineend="1243" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="reference">
+<Tdef>
+<DependentName/>
+</Tdef>
+</fpt>
+<p name="_Pos" proto="size_type" access2="none">
+<Tdef>
+<DependentName/>
+</Tdef>
+</p>
+</m>
+<m name="push_back" id="7ac319a6874a14641e137415d2ced56c_81e5f1d55e17ff7309528963d9e6dac3" file="9" linestart="1275" lineend="1296" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="_Val" proto="const value_type &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<Tdef>
+<DependentName/>
+</Tdef>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="clear" id="7ac319a6874a14641e137415d2ced56c_89e3522d3ebadb1467590c2969c878ef" file="9" linestart="1538" lineend="1543" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+</cr>
+</tm>
+<cr access="none" depth="0" kind="class" name="IDrawable" id="3528960a5546ff290460a754bd8906d2_a5ce70a630ecb95972162be0b10ab274" file="10" linestart="2" lineend="68">
+<c name="IDrawable" id="3528960a5546ff290460a754bd8906d2_db27efb8d72531f07b187a4d2c75ecb4" file="10" linestart="5" lineend="5" access="public">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<m name="GetRect" id="3528960a5546ff290460a754bd8906d2_b3e81c8c23fb1534902c6ba0645dea7b" file="10" linestart="11" lineend="14" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" const="true" proto="Gdiplus::RectF">
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_ee3d2a1cd2fd83b469337a90fe839ee7"/>
+</rt>
+</fpt>
+</m>
+<m name="SetRect" id="3528960a5546ff290460a754bd8906d2_16ed7c8272b6606f421487e4253f6bde" file="10" linestart="17" lineend="20" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="rect" proto="Gdiplus::RectF &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_ee3d2a1cd2fd83b469337a90fe839ee7"/>
+</rt>
+</lrf>
+</p>
+</m>
+<m name="SetCenterPos" id="3528960a5546ff290460a754bd8906d2_fb95fd1d52a006ecbe528d7d731b48da" file="10" linestart="39" lineend="45" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="ptCenter" proto="const Gdiplus::PointF &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_9c766ec3843256f55d77fdcf874d865a"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="SetSize" id="3528960a5546ff290460a754bd8906d2_833236b22e9d84b0a12ed3f5e36b55da" file="10" linestart="57" lineend="65" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="w" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+<p name="h" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="IMouseAction" id="2d3a9f316f3c416ff2142164914d1d01_101138aaadbb5f92745906b14d86b6b8" file="11" linestart="2" lineend="24">
+<c name="IMouseAction" id="2d3a9f316f3c416ff2142164914d1d01_f9bd68506097494c910403fdd2df3fde" file="11" linestart="5" lineend="5" access="public">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<cr parent="fd5c3f2c15924fcc7e992d27f968e6a6_e47477e971d305bde1e297e93597642d" access="private" depth="0" kind="struct" name="SAnimateInfo" id="fd5c3f2c15924fcc7e992d27f968e6a6_0f04eb0f4c440d057eb65fae504c4895" file="2" linestart="55" lineend="58">
+<c name="" id="fd5c3f2c15924fcc7e992d27f968e6a6_7bc7b3b5641c05e0db702bdf9f9ce4e0" file="2" linestart="55" lineend="55" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<f name="cos" id="64ba1dcf1e1ccfd327928d1a6d942515_3cfd9a8b661c7b28259e7581ef5e433d" file="12" linestart="86" lineend="89" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="float">
+<bt name="float"/>
+</fpt>
+<p name="_Xx" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+</f>
+<f name="sin" id="64ba1dcf1e1ccfd327928d1a6d942515_326e272c2e590e84daca2d2f592bf79d" file="12" linestart="293" lineend="296" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="float">
+<bt name="float"/>
+</fpt>
+<p name="_Xx" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+</f>
+<f namespace="std" name="reverse" id="b08c89033375a7836d715d392b71174f_d4333a7d343d1807dd67eaa1245c5168" file="13" linestart="3551" lineend="3556" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="_First" proto="_BidIt" access2="none">
+<ttp/>
+</p>
+<p name="_Last" proto="_BidIt" access2="none">
+<ttp/>
+</p>
+</f>
+<ft name="reverse" id="b08c89033375a7836d715d392b71174f_efedc987ec137efe13c1be28b68ec407" file="13" linestart="3551" lineend="3556">
+<template_parameters>
+<ttp name="_BidIt" id="b08c89033375a7836d715d392b71174f_9f760dd36cda26b508d545ea003f5180" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<f namespace="std" name="reverse" id="b08c89033375a7836d715d392b71174f_d4333a7d343d1807dd67eaa1245c5168" file="13" linestart="3551" lineend="3556" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="_First" proto="_BidIt" access2="none">
+<ttp/>
+</p>
+<p name="_Last" proto="_BidIt" access2="none">
+<ttp/>
+</p>
+</f>
+</ft>
+</Externals>

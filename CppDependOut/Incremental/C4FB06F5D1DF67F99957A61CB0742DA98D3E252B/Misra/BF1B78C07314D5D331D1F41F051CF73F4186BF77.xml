@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cppdepend-plugin tool="Misra">
+<file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\mmsystem.h"><violation beginline="2792" endline="2792" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="2792" endline="2792" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="2792" endline="2792" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="2792" endline="2792" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="2792" endline="2792" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="2792" endline="2792" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="2792" endline="2792" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="2792" endline="2792" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="2792" endline="2792" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="2792" endline="2792" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="2792" endline="2792" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="2792" endline="2792" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\winbase.h"><violation beginline="4723" endline="4723" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="4723" endline="4723" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="4723" endline="4723" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="4723" endline="4723" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft visual studio 14.0\vc\include\thread"><violation beginline="86" endline="86" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="86" endline="86" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="86" endline="86" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="86" endline="86" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\musicplay.cpp"><violation beginline="7" endline="7" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="7" endline="7" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="8" endline="8" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="8" endline="8" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="10" endline="10" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="10" endline="10" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="16" endline="16" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="16" endline="16" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="17" endline="17" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="17" endline="17" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="19" endline="19" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="19" endline="19" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="25" endline="25" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="25" endline="25" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="26" endline="26" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="26" endline="26" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="28" endline="28" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="28" endline="28" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="34" endline="34" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="34" endline="34" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="35" endline="35" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="35" endline="35" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="37" endline="37" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="37" endline="37" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="43" endline="43" rule="Rule6-4-4" ruleset="Statements">
+</violation></file></cppdepend-plugin>

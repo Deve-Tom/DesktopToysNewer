@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cppdepend-plugin tool="Misra">
+<file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\commctrl.h"><violation beginline="165" endline="165" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplusinit.h"><violation beginline="114" endline="114" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="37" endline="37" rule="Rule11-0-1" ruleset="Classes">
+</violation></file><file path="c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxdisp.h"><violation beginline="1178" endline="1178" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxvisualmanager.h"><violation beginline="172" endline="172" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxvisualmanagerwindows.h"><violation beginline="29" endline="29" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h"><violation beginline="5462" endline="5462" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atltrace.h"><violation beginline="416" endline="416" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="416" endline="416" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\desktoptoys.cpp"><violation beginline="18" endline="18" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="94" endline="94" rule="Rule4-10-2" ruleset="Expressions">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\desktoptoys.h"><violation beginline="29" endline="29" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\desktoptoysdlg.h"><violation beginline="13" endline="13" rule="Rule4-10-2" ruleset="Expressions">
+</violation></file></cppdepend-plugin>

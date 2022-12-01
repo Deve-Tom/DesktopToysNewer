@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>Begin analysis with CppDepend v2022.1.0.85</Info>
+  <Info>No baseline for comparison defined.</Info>
+  <Info>The parser used is Clang</Info>
+  <Info>8 Cores are used, you can change this value from the menu Tools-&gt;Options-&gt;Parser Configuration</Info>
+  <ClangError>Project:DesktopToys=&gt;'new.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h:78:11</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'ctype.h' file not found at c:\program files (x86)\microsoft sdks\windows\v7.1a\include\winnt.h:31:10</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'string.h' file not found at c:\program files (x86)\microsoft sdks\windows\v7.1a\include\guiddef.h:146:10</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'tchar.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxv_w32.h:195:11</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'stdio.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h:226:11</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'stdlib.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h:229:11</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'time.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h:232:11</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'stddef.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h:238:11</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'errno.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h:244:10</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'malloc.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h:247:10</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'crtdbg.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h:250:11</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'mbstring.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxstr.h:27:10</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'wchar.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlchecked.h:21:10</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'process.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlbase.h:96:10</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'float.h' file not found at c:\program files (x86)\microsoft sdks\windows\v7.1a\include\d3d9types.h:20:10</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'math.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\atlcomtime.h:28:10</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'assert.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\include\comutil.h:23:11</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'corecrt.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\include\crtdefs.h:10:10</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'corecrt_terminate.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\include\eh.h:11:10</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'locale.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\include\xlocinfo.h:7:10</ClangError>
+  <ClangError>Project:DesktopToys=&gt;'share.h' file not found at c:\program files (x86)\microsoft visual studio 14.0\vc\include\xiosbase:10:11</ClangError>
+  <ClangError>Project:DesktopToys=&gt;use of undeclared identifier '_T' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\DesktopToys.cpp:72:17</ClangError>
+  <ClangError>Project:DesktopToys=&gt;assigning to 'CWnd *' from incompatible type 'CDesktopToysDlg *' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\DesktopToys.cpp:75:15</ClangError>
+  <ClangError>Project:DesktopToys=&gt;cannot initialize object parameter of type 'CDialog' with an expression of type 'CDesktopToysDlg' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\DesktopToys.cpp:76:22</ClangError>
+  <ClangError>Project:DesktopToys=&gt;cannot initialize object parameter of type 'CWnd' with an expression of type 'CDesktopToysDlg' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\DesktopToysDlg.cpp:27:13</ClangError>
+  <ClangError>Project:DesktopToys=&gt;no matching member function for call to 'MoveWindow' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\DesktopToysDlg.cpp:59:3</ClangError>
+  <ClangError>Project:DesktopToys=&gt;cannot initialize object parameter of type 'const CWnd' with an expression of type 'CDesktopToysDlg' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\DesktopToysDlg.cpp:63:37</ClangError>
+  <ClangError>Project:DesktopToys=&gt;no matching constructor for initialization of 'CPaintDC' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\DesktopToysDlg.cpp:80:12</ClangError>
+  <ClangError>Project:DesktopToys=&gt;cannot initialize object parameter of type 'CDialogEx' with an expression of type 'CDesktopToysDlg' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\DesktopToysDlg.cpp:127:20</ClangError>
+  <ClangError>Project:DesktopToys=&gt;no matching member function for call to 'SetCenterPos' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\DMenu.cpp:26:3</ClangError>
+  <ClangError>Project:DesktopToys=&gt;cannot initialize object parameter of type 'IDrawable' with an expression of type 'CDMenu' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\DMenu.cpp:43:14</ClangError>
+  <ClangError>Project:DesktopToys=&gt;no matching constructor for initialization of 'ScopeGuard' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\Game.cpp:195:2</ClangError>
+  <ClangError>Project:DesktopToys=&gt;member reference type 'std::shared_ptr&lt;IMark&gt;' is not a pointer; did you mean to use '.'? at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\Game.cpp:235:6</ClangError>
+  <ClangError>Project:DesktopToys=&gt;no member named 'Draw' in 'std::shared_ptr&lt;IMark&gt;' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\Game.cpp:235:8</ClangError>
+  <ClangError>Project:DesktopToys=&gt;member reference type 'std::shared_ptr&lt;IMark&gt;' is not a pointer at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\Game.cpp:228:37</ClangError>
+  <ClangError>Project:DesktopToys=&gt;no viable conversion from 'shared_ptr&lt;CShooter0Mark&gt;' to 'shared_ptr&lt;IMark&gt;' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\Shooter0.cpp:285:19</ClangError>
+  <ClangError>Project:DesktopToys=&gt;use of undeclared identifier 'srand' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\Shooter0Mark.cpp:21:2</ClangError>
+  <ClangError>Project:DesktopToys=&gt;use of undeclared identifier 'rand' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\Shooter0Mark.cpp:22:12</ClangError>
+  <ClangError>Project:DesktopToys=&gt;use of undeclared identifier 'assert' at C:\Users\23148\source\repos\DesktopToysImage-master\DesktopToys\Shooter2.cpp:92:4</ClangError>
+  <Warning>Some include files are not found for the project DesktopToys to see them you can activate the Clang parsing errors tab. You can specify additional include folders from Project Properties-&gt;Code To Analyze.</Warning>
+  <Info>No dependency cycle detected in Projects referencement graph.</Info>
+  <Info>Log trend metrics values.</Info>
+  <Warning>1 quality gate fail.
+  - 'Critical Rules Violated' value 1 rules greater than fail threshold 0 rules</Warning>
+  <Info>CppDepend analysis done. Duration: 00:00:33</Info>
+</InfoWarnings>

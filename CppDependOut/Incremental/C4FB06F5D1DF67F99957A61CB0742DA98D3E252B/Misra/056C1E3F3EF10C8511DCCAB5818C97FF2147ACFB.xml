@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cppdepend-plugin tool="Misra">
+<file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplustypes.h"><violation beginline="342" endline="342" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\winbase.h"><violation beginline="5648" endline="5648" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5648" endline="5648" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5648" endline="5648" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5648" endline="5648" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5648" endline="5648" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5648" endline="5648" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5648" endline="5648" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5648" endline="5648" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5648" endline="5648" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\gametimer.cpp"><violation beginline="40" endline="40" rule="Rule6-6-5" ruleset="Statements">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\gametimer.h"><violation beginline="69" endline="69" rule="Rule6-6-5" ruleset="Statements">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\idrawable.h"><violation beginline="39" endline="39" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="17" endline="17" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="48" endline="48" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="17" endline="17" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="39" endline="39" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file></cppdepend-plugin>

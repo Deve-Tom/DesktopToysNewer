@@ -1,0 +1,273 @@
+<Externals>
+<cr access="none" depth="0" pod="true" kind="struct" name="tagPOINT" id="dbc3d9eadc4c2f9671651b3c32427183_b1f566919980e6677cca1e90cfed007f" file="3" linestart="339" lineend="343">
+<fl name="x" id="dbc3d9eadc4c2f9671651b3c32427183_d6d4c148dfc2fc2889290774ffa4234a" file="3" linestart="341" lineend="341" isLiteral="true" access="public" proto="LONG">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</fl>
+<fl name="y" id="dbc3d9eadc4c2f9671651b3c32427183_dc50d8dafb0e47045a08ce00c6191e24" file="3" linestart="342" lineend="342" isLiteral="true" access="public" proto="LONG">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</fl>
+</cr>
+<cr access="none" depth="1" kind="class" name="CPoint" id="f44b3327f635dae02644aa512ae8a5c5_3313f7ddc49f6d502f29ccc41d646a29" file="4" linestart="74" lineend="125" previous="f44b3327f635dae02644aa512ae8a5c5_3313f7ddc49f6d502f29ccc41d646a29">
+<base access="public">
+<rt>
+<cr id="dbc3d9eadc4c2f9671651b3c32427183_b1f566919980e6677cca1e90cfed007f"/>
+</rt>
+</base>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="0" kind="class" name="PointF" id="ed4f04595acffe9ccc64829d2de655ce_9c766ec3843256f55d77fdcf874d865a" file="5" linestart="234" lineend="282" previous="ed4f04595acffe9ccc64829d2de655ce_9c766ec3843256f55d77fdcf874d865a">
+<c name="PointF" id="ed4f04595acffe9ccc64829d2de655ce_808547411722af30f5ead8fbd252a81a" file="5" linestart="242" lineend="246" copyconst="true" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="point" proto="const Gdiplus::PointF &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_9c766ec3843256f55d77fdcf874d865a"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+<fl name="X" id="ed4f04595acffe9ccc64829d2de655ce_9973f71807d8ed1a465632c2e632ea9e" file="5" linestart="280" lineend="280" isLiteral="true" access="public" proto="REAL">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</fl>
+<fl name="Y" id="ed4f04595acffe9ccc64829d2de655ce_8c059742f8dd6ce8207415843092e711" file="5" linestart="281" lineend="281" isLiteral="true" access="public" proto="REAL">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</fl>
+<m name="operator=" id="ed4f04595acffe9ccc64829d2de655ce_b46f54ed14f46411f0e1e97f76cf425d" file="5" linestart="234" lineend="234" implicit="true" operator="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="Gdiplus::PointF &amp;">
+<lrf>
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_9c766ec3843256f55d77fdcf874d865a"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="const Gdiplus::PointF &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_9c766ec3843256f55d77fdcf874d865a"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="0" kind="class" name="RectF" id="ed4f04595acffe9ccc64829d2de655ce_ee3d2a1cd2fd83b469337a90fe839ee7" file="5" linestart="342" lineend="524" previous="ed4f04595acffe9ccc64829d2de655ce_ee3d2a1cd2fd83b469337a90fe839ee7">
+<c name="RectF" id="ed4f04595acffe9ccc64829d2de655ce_3c5881f1812858badc6e6163b8c9de06" file="5" linestart="346" lineend="349" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<fl name="X" id="ed4f04595acffe9ccc64829d2de655ce_f534fcc7c403ed85001dcf2f2ad7bfee" file="5" linestart="520" lineend="520" isLiteral="true" access="public" proto="REAL">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</fl>
+<fl name="Y" id="ed4f04595acffe9ccc64829d2de655ce_9348ed405201e80d37359157b0d8fcdf" file="5" linestart="521" lineend="521" isLiteral="true" access="public" proto="REAL">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</fl>
+<fl name="Width" id="ed4f04595acffe9ccc64829d2de655ce_330720260a0a0451500095f2685fdbbc" file="5" linestart="522" lineend="522" isLiteral="true" access="public" proto="REAL">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</fl>
+<fl name="Height" id="ed4f04595acffe9ccc64829d2de655ce_adfe72f9f7fc6efa8abfce419bf34b80" file="5" linestart="523" lineend="523" isLiteral="true" access="public" proto="REAL">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</fl>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="1" kind="class" name="Font" id="ff820a7d7a3bcdf383db67a14e9b8326_dcc41c639cce2ff84df94957c65f658b" file="6" linestart="244" lineend="301" previous="40b60188e33bc54bed7da2234a1d7327_dcc41c639cce2ff84df94957c65f658b">
+<base access="public">
+<rt>
+<cr id="2a2ef0eeca0c91234e4b5f9a05fe58a5_4bb21d1841e19f2fca4356b123608bc0"/>
+</rt>
+</base>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="1" kind="class" name="Image" id="ff820a7d7a3bcdf383db67a14e9b8326_800e7e20cec77c7e3c3d1e7a0039a76c" file="6" linestart="372" lineend="492" previous="40b60188e33bc54bed7da2234a1d7327_800e7e20cec77c7e3c3d1e7a0039a76c">
+<base access="public">
+<rt>
+<cr id="2a2ef0eeca0c91234e4b5f9a05fe58a5_4bb21d1841e19f2fca4356b123608bc0"/>
+</rt>
+</base>
+<m name="GetWidth" id="ff820a7d7a3bcdf383db67a14e9b8326_c50278d511bdccf0b816564ae2fcd291" file="6" linestart="417" lineend="417" access="public" hasbody="true">
+<fpt cc="cdecl" proto="UINT">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fpt>
+</m>
+<m name="GetHeight" id="ff820a7d7a3bcdf383db67a14e9b8326_5d2d13749430cde585b71f41b0cb85ee" file="6" linestart="418" lineend="418" access="public" hasbody="true">
+<fpt cc="cdecl" proto="UINT">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fpt>
+</m>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="2" kind="class" name="SolidBrush" id="2b81bffca6fe47ad665252fba915c75d_417a18b1c71848fccf461e67061be21e" file="7" linestart="107" lineend="153" previous="40b60188e33bc54bed7da2234a1d7327_417a18b1c71848fccf461e67061be21e">
+<base access="public">
+<rt>
+<cr id="2b81bffca6fe47ad665252fba915c75d_3d7a3ebcda155a3ef752de6c2365ec11"/>
+</rt>
+</base>
+</cr>
+<cr namespace="Gdiplus" access="none" depth="1" kind="class" name="Graphics" id="4786edbcf042489a1a53185fcc31bbf4_eaa992a855d52242e56e372c45c2db2e" file="8" linestart="18" lineend="2415" previous="40b60188e33bc54bed7da2234a1d7327_eaa992a855d52242e56e372c45c2db2e">
+<base access="public">
+<rt>
+<cr id="2a2ef0eeca0c91234e4b5f9a05fe58a5_4bb21d1841e19f2fca4356b123608bc0"/>
+</rt>
+</base>
+<m name="TranslateTransform" id="4786edbcf042489a1a53185fcc31bbf4_55f639e9506a7fea794cb63d43f382ee" file="8" linestart="299" lineend="305" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="Gdiplus::Status">
+<et>
+<e id="ed4f04595acffe9ccc64829d2de655ce_e43e3ddf6a68fa1439f3700d18abf5e4"/>
+</et>
+</fpt>
+<p name="dx" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="dy" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="order" proto="Gdiplus::MatrixOrder" isLiteral="true" init="true" access2="none">
+<et>
+<e id="55765b4752e30cc8384baeb50a858643_3971b9426e45a4223f0550ce4bec5a1d"/>
+</et>
+</p>
+</m>
+<m name="RotateTransform" id="4786edbcf042489a1a53185fcc31bbf4_31e9539ca5657cf6a89dc391b4b6659c" file="8" linestart="315" lineend="320" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="Gdiplus::Status">
+<et>
+<e id="ed4f04595acffe9ccc64829d2de655ce_e43e3ddf6a68fa1439f3700d18abf5e4"/>
+</et>
+</fpt>
+<p name="angle" proto="REAL" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="order" proto="Gdiplus::MatrixOrder" isLiteral="true" init="true" access2="none">
+<et>
+<e id="55765b4752e30cc8384baeb50a858643_3971b9426e45a4223f0550ce4bec5a1d"/>
+</et>
+</p>
+</m>
+<m name="DrawImage" id="4786edbcf042489a1a53185fcc31bbf4_5d5c9b779b93754296abb0df5bca1380" file="8" linestart="1516" lineend="1520" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="Gdiplus::Status">
+<et>
+<e id="ed4f04595acffe9ccc64829d2de655ce_e43e3ddf6a68fa1439f3700d18abf5e4"/>
+</et>
+</fpt>
+<p name="image" proto="Gdiplus::Image *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="ff820a7d7a3bcdf383db67a14e9b8326_800e7e20cec77c7e3c3d1e7a0039a76c"/>
+</rt>
+</pt>
+</p>
+<p name="rect" proto="const Gdiplus::RectF &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="ed4f04595acffe9ccc64829d2de655ce_ee3d2a1cd2fd83b469337a90fe839ee7"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<cr access="public" depth="0" kind="class" name="ScopeGuard" id="4446d669387ac609b12a001026f8647a_0bc33661555d33800eb892800ec90698" file="9" linestart="9" lineend="31"/>
+<cr access="none" depth="0" kind="class" name="IDrawable" id="3528960a5546ff290460a754bd8906d2_a5ce70a630ecb95972162be0b10ab274" file="10" linestart="2" lineend="68"/>
+<cr access="none" depth="0" kind="class" name="IMouseAction" id="2d3a9f316f3c416ff2142164914d1d01_101138aaadbb5f92745906b14d86b6b8" file="11" linestart="2" lineend="24"/>
+<cr access="none" depth="1" kind="class" name="CShooter" id="fce79102ce407fa83183e36dcc057592_ab748c85097560ff23dfe108797ce918" file="12" linestart="5" lineend="11">
+<base access="public">
+<rt>
+<cr id="2d3a9f316f3c416ff2142164914d1d01_101138aaadbb5f92745906b14d86b6b8"/>
+</rt>
+</base>
+<base access="public">
+<rt>
+<cr id="3528960a5546ff290460a754bd8906d2_a5ce70a630ecb95972162be0b10ab274"/>
+</rt>
+</base>
+<c name="CShooter" id="fce79102ce407fa83183e36dcc057592_3daad55294b2f35ff747a879dcdb7470" file="12" linestart="9" lineend="9" access="public">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<cr access="none" depth="0" pod="true" kind="class" name="MusicPlay" id="c0789198d8efacafa7b1aff1ff7ee22a_20eaa787b5e79f04cd51f3d13031f510" file="13" linestart="4" lineend="25">
+<e parent="c0789198d8efacafa7b1aff1ff7ee22a_20eaa787b5e79f04cd51f3d13031f510" access="public" name="status" id="c0789198d8efacafa7b1aff1ff7ee22a_3c1c437f80a5fde278db69268b6da4cd" file="13" linestart="7" lineend="12" scoped="true" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="hammerShock" id="c0789198d8efacafa7b1aff1ff7ee22a_8fc6c37e76a10179f9783ad0460b68b3" file="13" linestart="11" lineend="11">
+<et>
+<e id="c0789198d8efacafa7b1aff1ff7ee22a_3c1c437f80a5fde278db69268b6da4cd"/>
+</et>
+</ec>
+</e>
+<m name="playMusic" id="c0789198d8efacafa7b1aff1ff7ee22a_417edb226f864f1c96ccd5e59b8904ea" file="13" linestart="15" lineend="15" access="public" storage="static">
+<fpt cc="cdecl" proto="BOOL">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</fpt>
+<p name="sta" proto="MusicPlay::status" isLiteral="true" access2="none">
+<et>
+<e id="c0789198d8efacafa7b1aff1ff7ee22a_3c1c437f80a5fde278db69268b6da4cd"/>
+</et>
+</p>
+</m>
+</cr>
+<f name="atan2" id="64ba1dcf1e1ccfd327928d1a6d942515_556aa2ce1f7a38c8995b70bfc7d393d9" file="14" linestart="65" lineend="68" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="float">
+<bt name="float"/>
+</fpt>
+<p name="_Yx" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+<p name="_Xx" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+</f>
+<f name="pow" id="64ba1dcf1e1ccfd327928d1a6d942515_5e9cf113339b472399677814f5814be0" file="14" linestart="254" lineend="260" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="float">
+<bt name="float"/>
+</fpt>
+<p name="_Xx" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+<p name="_Yx" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+<f name="sqrt" id="64ba1dcf1e1ccfd327928d1a6d942515_f06a0a9780b1c140ce63ca98579bc2b7" file="14" linestart="303" lineend="306" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="float">
+<bt name="float"/>
+</fpt>
+<p name="_Xx" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+</f>
+</Externals>

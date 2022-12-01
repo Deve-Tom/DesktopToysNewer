@@ -1,6 +1,6 @@
 #pragma once
 /*
-菜单管理类
+*菜单管理类
 */
 #include "IDrawable.h"
 #include "IMouseAction.h"
@@ -40,9 +40,13 @@ private:
 	// 盖子2:关闭
 	std::shared_ptr<CMenuItem> m_cover2;
 	// 选项
+	// 忍者图片
 	std::shared_ptr<CMenuItem> m_item0;
+	// 粉刷匠图片
 	std::shared_ptr<CMenuItem> m_item1;
+	// 锤子图片
 	std::shared_ptr<CMenuItem> m_item2;
+	// 橡皮图片
 	std::shared_ptr<CMenuItem> m_item3;
 
 	// 结束动画播放
