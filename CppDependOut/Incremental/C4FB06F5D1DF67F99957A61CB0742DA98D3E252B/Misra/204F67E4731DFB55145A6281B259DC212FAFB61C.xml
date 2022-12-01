@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cppdepend-plugin tool="Misra">
+<file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplusgraphics.h"><violation beginline="299" endline="299" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="315" endline="315" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="299" endline="299" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1499" endline="1499" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplustypes.h"><violation beginline="234" endline="234" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="234" endline="234" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="436" endline="436" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\game.h"><violation beginline="55" endline="55" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="55" endline="55" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\idrawable.h"><violation beginline="32" endline="32" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="48" endline="48" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\shooter2mark.cpp"><violation beginline="40" endline="40" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\shooter2mark.h"><violation beginline="17" endline="17" rule="Rule11-0-1" ruleset="Classes">
+</violation></file></cppdepend-plugin>

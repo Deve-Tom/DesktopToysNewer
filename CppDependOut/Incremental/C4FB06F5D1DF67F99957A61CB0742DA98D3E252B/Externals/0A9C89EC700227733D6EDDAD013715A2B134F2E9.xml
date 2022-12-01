@@ -1,0 +1,16 @@
+<Externals>
+<cr access="none" depth="0" kind="class" name="IDrawable" id="3528960a5546ff290460a754bd8906d2_a5ce70a630ecb95972162be0b10ab274" file="3" linestart="2" lineend="68">
+<c name="IDrawable" id="3528960a5546ff290460a754bd8906d2_db27efb8d72531f07b187a4d2c75ecb4" file="3" linestart="5" lineend="5" access="public">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<cr access="none" depth="0" kind="class" name="IMouseAction" id="2d3a9f316f3c416ff2142164914d1d01_101138aaadbb5f92745906b14d86b6b8" file="4" linestart="2" lineend="24">
+<c name="IMouseAction" id="2d3a9f316f3c416ff2142164914d1d01_f9bd68506097494c910403fdd2df3fde" file="4" linestart="5" lineend="5" access="public">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+</Externals>

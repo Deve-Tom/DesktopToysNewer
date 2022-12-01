@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cppdepend-plugin tool="Misra">
+<file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplusgraphics.h"><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\gametimer.h"><violation beginline="60" endline="60" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="60" endline="60" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\musicplay.h"><violation beginline="15" endline="15" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\shooter3.cpp"><violation beginline="22" endline="22" rule="Rule6-4-4" ruleset="Statements">
+</violation></file></cppdepend-plugin>

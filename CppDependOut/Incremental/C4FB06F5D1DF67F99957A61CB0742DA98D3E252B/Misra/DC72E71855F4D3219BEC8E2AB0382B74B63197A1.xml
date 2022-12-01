@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cppdepend-plugin tool="Misra">
+<file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\shooter2mark.h"><violation beginline="17" endline="17" rule="Rule11-0-1" ruleset="Classes">
+</violation><violation beginline="17" endline="17" rule="Rule11-0-1" ruleset="Classes">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\shooter3mark.h"><violation beginline="19" endline="19" rule="Rule11-0-1" ruleset="Classes">
+</violation><violation beginline="19" endline="19" rule="Rule11-0-1" ruleset="Classes">
+</violation></file></cppdepend-plugin>

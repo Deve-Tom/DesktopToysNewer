@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cppdepend-plugin tool="Misra">
+<file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplusgraphics.h"><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1505" endline="1505" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1522" endline="1522" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1505" endline="1505" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1522" endline="1522" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1522" endline="1522" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1522" endline="1522" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="1516" endline="1516" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplustypes.h"><violation beginline="436" endline="436" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="234" endline="234" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="234" endline="234" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft visual studio 14.0\vc\include\cmath"><violation beginline="86" endline="86" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="293" endline="293" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\gametimer.h"><violation beginline="60" endline="60" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="60" endline="60" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="73" endline="73" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="46" endline="46" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\idrawable.h"><violation beginline="17" endline="17" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="48" endline="48" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="39" endline="39" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="48" endline="48" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="39" endline="39" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="48" endline="48" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="39" endline="39" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="11" endline="11" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="48" endline="48" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="48" endline="48" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\musicplay.h"><violation beginline="15" endline="15" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="15" endline="15" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\shooter0.cpp"><violation beginline="64" endline="64" rule="Rule6-4-4" ruleset="Statements">
+</violation><violation beginline="89" endline="89" rule="Rule4-5-2" ruleset="Expressions">
+</violation><violation beginline="95" endline="95" rule="Rule4-5-2" ruleset="Expressions">
+</violation><violation beginline="101" endline="101" rule="Rule4-5-2" ruleset="Expressions">
+</violation><violation beginline="107" endline="107" rule="Rule4-5-2" ruleset="Expressions">
+</violation><violation beginline="113" endline="113" rule="Rule4-5-2" ruleset="Expressions">
+</violation><violation beginline="119" endline="119" rule="Rule4-5-2" ruleset="Expressions">
+</violation><violation beginline="125" endline="125" rule="Rule4-5-2" ruleset="Expressions">
+</violation><violation beginline="131" endline="131" rule="Rule4-5-2" ruleset="Expressions">
+</violation><violation beginline="172" endline="172" rule="Rule6-4-4" ruleset="Statements">
+</violation><violation beginline="174" endline="174" rule="Rule6-4-4" ruleset="Statements">
+</violation><violation beginline="258" endline="258" rule="Rule6-4-4" ruleset="Statements">
+</violation><violation beginline="333" endline="333" rule="Rule6-6-5" ruleset="Statements">
+</violation><violation beginline="412" endline="412" rule="Rule6-6-5" ruleset="Statements">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\shooter0.h"><violation beginline="88" endline="88" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="88" endline="88" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="88" endline="88" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="88" endline="88" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="88" endline="88" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="88" endline="88" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="88" endline="88" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="88" endline="88" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="113" endline="113" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="113" endline="113" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file></cppdepend-plugin>

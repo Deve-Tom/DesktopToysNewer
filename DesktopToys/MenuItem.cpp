@@ -75,14 +75,10 @@ bool CMenuItem::OnMouseMove(UINT nFlags, CPoint point)
 }
 
 // 开始播放动画;
-void CMenuItem::StartAnimate()
-{
-
-}
+void CMenuItem::StartAnimate(){}
 
 // 设置动画信息:飞出，散布在四周
-void CMenuItem::InitAnimateInfo0(float x, float y, float dir)
-{
+void CMenuItem::InitAnimateInfo0(float x, float y, float dir){
 	if (m_bAnimate) {
 		return;
 	}
@@ -93,14 +89,16 @@ void CMenuItem::InitAnimateInfo0(float x, float y, float dir)
 	m_indexAnimate = 0;
 	// 运动路径信息清空
 	m_vAnimateInfo.clear();
+
+	// 动画放大操作
 	// 初始大小
 	float w = m_sizeInit.Width * 0.01f, h = m_sizeInit.Height * 0.01f;
 	// 原始大小
 	float ww = m_sizeInit.Width, hh = m_sizeInit.Height;
-
 	// 最大
 	float www = m_sizeInit.Width * 2.0f, hhh = m_sizeInit.Height * 2.0f;
 
+	//图片大小和坐标位置
 	SAnimateInfo info;
 
 	// 第一个位置
@@ -111,6 +109,7 @@ void CMenuItem::InitAnimateInfo0(float x, float y, float dir)
 		info.pos.Y = y;
 		m_vAnimateInfo.push_back(info);
 	}
+	//到中心位置的距离-开始偏离
 	float distance = 1.0f;
 	// 达到最大值
 	while (true) {
@@ -175,8 +174,7 @@ void CMenuItem::InitAnimateInfo1(float x, float y, float dir)
 	m_indexAnimate = 0;
 	// 运动路径信息清空
 	m_vAnimateInfo.clear();
-	// 根据初始位置，和方向，生成新的路径
-	// 到最大
+	// 根据初始位置和方向，生成新的路径到最大
 	float w = m_sizeInit.Width, h = m_sizeInit.Height;
 	SAnimateInfo info;
 
@@ -193,7 +191,6 @@ void CMenuItem::InitAnimateInfo1(float x, float y, float dir)
 		// 高度每次增加 10%
 		h *= (1 - 0.05f);
 		{
-
 			info.size.Width = w;
 			info.size.Height = h;
 			info.pos.X = x;
@@ -234,6 +231,7 @@ void CMenuItem::InitAnimateInfo3(float x, float y)
 	// 根据初始位置，和方向，生成新的路径
 	// 到最大
 	float w = m_sizeInit.Width * 0.01f, h = m_sizeInit.Height * 0.01f;
+	// 动画的相关信息
 	SAnimateInfo info;
 	// 放入初始大小
 	info.size = m_sizeInit;

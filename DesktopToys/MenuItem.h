@@ -35,13 +35,11 @@ public:
 	void InitAnimateInfo3(float x, float y);
 
 	// 傍止播放动画，直接跳到最后(静止下来)
-	void EndAnimate()
-	{
+	void EndAnimate(){
 		m_indexAnimate = m_vAnimateInfo.size();
 	}
 	// 动画是否播放完毕
-	bool IsAnimateEnd() const
-	{
+	bool IsAnimateEnd() const{
 		return m_indexAnimate != 0 && m_indexAnimate >= m_vAnimateInfo.size();
 	}
 private:
@@ -57,7 +55,7 @@ private:
 		PointF pos;
 	} SAnimateInfo;
 	std::vector<SAnimateInfo> m_vAnimateInfo; //记录运动路径
-	// 当前在第几帧的位置
+	// 当前在哪个位置
 	size_t m_indexAnimate;
 	// 标记当前是飞出动画
 	bool m_bAnimate{ false };

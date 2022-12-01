@@ -3,8 +3,7 @@
 #include "IMark.h"
 
 CGame::CGame(HWND hWnd, float x, float y, float w, float h):
-	m_hWnd(hWnd),m_x(x),m_y(y),m_width(w),m_height(h)
-{
+	m_hWnd(hWnd),m_x(x),m_y(y),m_width(w),m_height(h){
 	//保存全局指针
 	g_game = this;
 	m_menu = std::make_shared<CDMenu>(hWnd);
@@ -20,26 +19,25 @@ CGame::CGame(HWND hWnd, float x, float y, float w, float h):
 	GetClientRect(m_hWnd, &m_rcClient);
 }
 
-CGame::~CGame()
-{
-}
+CGame::~CGame(){}
 
-bool CGame::EnterFrame(DWORD dwTime)
-{
+bool CGame::EnterFrame(DWORD dwTime){
 	Draw();
 	return false;
 }
 
-void CGame::OnLButtonDown(UINT nFlags, CPoint point)
-{
+void CGame::OnLButtonDown(UINT nFlags, CPoint point){
 	switch (m_eStatus) {
+		//菜单选择阶段
 	case CGame::EGameStatusSelect: {
+		//通过CGame类调用CDMenu进行处理
 		if (m_menu->OnLButtonDown(nFlags, point)) {
 			break;
 		}
 		break;
 	}
 	case CGame::EGameStatusNormal: {
+		//游戏阶段
 		m_pTool->OnLButtonDown(nFlags, point);
 		break;
 	}
@@ -68,9 +66,7 @@ void CGame::OnLButtonUp(UINT nFlags, CPoint point)
 	}
 }
 
-void CGame::OnLButtonDblClk(UINT nFlags, CPoint point)
-{
-}
+void CGame::OnLButtonDblClk(UINT nFlags, CPoint point){}
 
 void CGame::OnRButtonDown(UINT nFlags, CPoint point)
 {
@@ -112,12 +108,9 @@ void CGame::OnRButtonUp(UINT nFlags, CPoint point)
 	}
 }
 
-void CGame::OnRButtonDblClk(UINT nFlags, CPoint point)
-{
-}
+void CGame::OnRButtonDblClk(UINT nFlags, CPoint point){}
 
-void CGame::OnMouseMove(UINT nFlags, CPoint point)
-{
+void CGame::OnMouseMove(UINT nFlags, CPoint point){
 	switch (m_eStatus) {
 	case CGame::EGameStatusSelect: {
 		break;
@@ -133,8 +126,7 @@ void CGame::OnMouseMove(UINT nFlags, CPoint point)
 	}
 }
 
-BOOL CGame::OnESC()
-{
+BOOL CGame::OnESC(){
 	switch (m_eStatus) {
 	case CGame::EGameStatusSelect:
 		// 当前 没有在游戏，不处理

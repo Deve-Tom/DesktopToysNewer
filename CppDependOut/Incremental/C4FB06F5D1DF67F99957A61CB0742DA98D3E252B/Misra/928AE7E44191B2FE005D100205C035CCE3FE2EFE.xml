@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cppdepend-plugin tool="Misra">
+<file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplusgraphics.h"><violation beginline="1554" endline="1554" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplusinit.h"><violation beginline="37" endline="37" rule="Rule11-0-1" ruleset="Classes">
+</violation></file><file path="c:\program files (x86)\microsoft sdks\windows\v7.1a\include\winuser.h"><violation beginline="5891" endline="5891" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5891" endline="5891" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5891" endline="5891" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5891" endline="5891" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5891" endline="5891" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="5891" endline="5891" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h"><violation beginline="5248" endline="5248" rule="Rule7-5-4" ruleset="Declarations">
+</violation><violation beginline="4957" endline="4957" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\desktoptoysdlg.cpp"><violation beginline="39" endline="39" rule="Rule4-10-2" ruleset="Expressions">
+</violation></file><file path="c:\users\23148\source\repos\desktoptoysimage-master\desktoptoys\desktoptoysdlg.h"><violation beginline="13" endline="13" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="13" endline="13" rule="Rule4-10-2" ruleset="Expressions">
+</violation><violation beginline="33" endline="33" rule="Rule7-5-4" ruleset="Declarations">
+</violation></file></cppdepend-plugin>

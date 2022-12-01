@@ -1,0 +1,78 @@
+<Externals>
+<cr namespace="std" access="none" depth="0" kind="class" name="thread" id="09c45b88fb859ff3d137eb7c84d97f44_333e7eb10696e6bdc81ebd434a3c0b22" file="3" linestart="29" lineend="117">
+<ft name="thread" id="09c45b88fb859ff3d137eb7c84d97f44_8445d052d2369d56e30bb7eab2ebb3ae" file="3" linestart="42" lineend="51">
+<template_parameters>
+<ttp name="_Fn" id="09c45b88fb859ff3d137eb7c84d97f44_9bd94ccefabdd6a61009373ace8af355" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="_Args" id="09c45b88fb859ff3d137eb7c84d97f44_032323e542b2060637548363bc8c1d06" depth="0" index="1" proto="type-parameter-0-1"/>
+<ttp name="" id="09c45b88fb859ff3d137eb7c84d97f44_dbd69e71b6df8e2385b0432aa9b949bf" depth="0" index="2" proto="type-parameter-0-2">
+<DependentName/>
+</ttp>
+</template_parameters>
+<c name="thread" id="09c45b88fb859ff3d137eb7c84d97f44_c42d1b5c5310220f8da9085a24ea88c6" file="3" linestart="46" lineend="51" explicit="true" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="_Fx" proto="_Fn &amp;&amp;" isRef="true" access2="none">
+<rrf>
+<ttp/>
+</rrf>
+</p>
+<p name="_Ax" proto="_Args &amp;&amp;..." access2="none">
+<PackExpansion/>
+</p>
+</c>
+</ft>
+<m name="detach" id="09c45b88fb859ff3d137eb7c84d97f44_a7e864007ce8f466fdff6198e86a2665" file="3" linestart="86" lineend="92" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+</cr>
+<f name="Sleep" id="6f46dd4903b039deeb8fbdc41e22c664_4db54919e9d10041242bba0beb4d229d" file="4" linestart="4723" lineend="4728" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="dwMilliseconds" proto="DWORD" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned long"/>
+</Tdef>
+</p>
+</f>
+<f name="mciSendStringW" id="ce90f687a81ba4598f963eee39e67664_965fab33fe3ea65cf404e4c6b901eb04" file="5" linestart="2792" lineend="2792" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="lpstrCommand" proto="LPCWSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+</p>
+<p name="lpstrReturnString" proto="LPWSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</pt>
+</Tdef>
+</p>
+<p name="uReturnLength" proto="UINT" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="hwndCallback" proto="HWND" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<ety>
+<rt>
+<cr id="dbc3d9eadc4c2f9671651b3c32427183_5847ad6971421591ff7da5abaa1ba10e"/>
+</rt>
+</ety>
+</pt>
+</Tdef>
+</p>
+</f>
+</Externals>

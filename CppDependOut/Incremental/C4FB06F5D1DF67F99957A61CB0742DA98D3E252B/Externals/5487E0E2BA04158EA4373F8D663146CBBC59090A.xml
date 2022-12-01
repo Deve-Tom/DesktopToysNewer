@@ -1,0 +1,12 @@
+<Externals>
+<cr access="public" depth="0" kind="class" name="CGame" id="f23bb5b01f35af7b608b086b6eeb266c_5973fd17ca21ca4400a64a1ea0d7ae24" file="2" linestart="9" lineend="97">
+<e parent="f23bb5b01f35af7b608b086b6eeb266c_5973fd17ca21ca4400a64a1ea0d7ae24" access="private" name="EGameStatus" id="f23bb5b01f35af7b608b086b6eeb266c_e84a53be7376bc37825edf6d16ca1186" file="2" linestart="70" lineend="70">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+</Externals>
