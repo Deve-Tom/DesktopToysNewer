@@ -2,11 +2,6 @@
 #include "IMark.h"
 
 
-IMark::IMark()
-{
-}
+IMark::IMark(){}
 
-
-IMark::~IMark()
-{
-}
+IMark::~IMark(){}

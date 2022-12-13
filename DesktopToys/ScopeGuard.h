@@ -1,16 +1,13 @@
 #pragma once
-/*
-管理函数，代码执行环境离开变量作用域时，自动执行析构函数，析构函数为之前传入的函数
-*/
+/*管理函数，代码执行环境离开变量作用域时，自动执行析构函数，析构函数为之前传入的函数*/
 
 #include "stdafx.h"
 #include <functional>
 
-class ScopeGuard
-{
+class ScopeGuard{
 	public:
-		explicit ScopeGuard(std::function<void()> onExitScope) //构造函数
-			:onExitScope_(onExitScope),dismissed_(false)   //初始化列表
+		explicit ScopeGuard(std::function<void()> onExitScope)//构造函数
+			:onExitScope_(onExitScope),dismissed_(false)//初始化列表
 		{}
 		~ScopeGuard()
 		{
@@ -18,8 +15,7 @@ class ScopeGuard
 				onExitScope_();  
 			}
 		}
-		void Dismiss()
-		{
+		void Dismiss(){
 			dismissed_=true;
 		}
 	private:

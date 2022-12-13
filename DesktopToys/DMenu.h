@@ -1,7 +1,5 @@
 #pragma once
-/*
-*菜单管理类
-*/
+/*菜单管理类*/
 #include "IDrawable.h"
 #include "IMouseAction.h"
 #include "MenuItem.h"
@@ -12,8 +10,7 @@
 #include "Shooter3.h"
 
 class CDMenu :
-	public IDrawable,public IMouseAction
-{
+	public IDrawable,public IMouseAction{
 public:
 	CDMenu(HWND hWnd);
 	virtual ~CDMenu();
@@ -24,32 +21,32 @@ public:
 	/// ////////////////////////////////////////////////////////////////////////
 	/// 处理鼠标消息
 	/// 如果 不处理，则返回false,父类可以具此判断是否继续进行处理
-	// 鼠标左键按下
+	//鼠标左键按下
 	virtual bool OnLButtonDown(UINT nFlags, CPoint point);
-	// 鼠标右键按下
+	//鼠标右键按下
 	virtual bool OnRButtonDown(UINT nFlags, CPoint point);
-	// 鼠标移动
+	//鼠标移动
 	virtual bool OnMouseMove(UINT nFlags, CPoint point);
 private:
 	HWND m_hWnd;  //主窗口句柄
-	// 菜单子项
-	// 箱子
+	//菜单子项
+	//箱子
 	std::shared_ptr<CMenuItem> m_box;
-	// 盖子1:打开
+	//盖子1:打开
 	std::shared_ptr<CMenuItem> m_cover;
-	// 盖子2:关闭
+	//盖子2:关闭
 	std::shared_ptr<CMenuItem> m_cover2;
-	// 选项
-	// 忍者图片
+	//选项
+	//忍者图片
 	std::shared_ptr<CMenuItem> m_item0;
-	// 粉刷匠图片
+	//粉刷匠图片
 	std::shared_ptr<CMenuItem> m_item1;
-	// 锤子图片
+	//锤子图片
 	std::shared_ptr<CMenuItem> m_item2;
-	// 橡皮图片
+	//橡皮图片
 	std::shared_ptr<CMenuItem> m_item3;
 
-	// 结束动画播放
+	//结束动画播放
 	void EndAnimate();
 
 	typedef enum {

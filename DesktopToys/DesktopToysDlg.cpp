@@ -16,14 +16,11 @@
 
 
 
-CDesktopToysDlg::CDesktopToysDlg(CWnd* pParent /*=NULL*/)
-	: CDialogEx(IDD_DESKTOPTOYS_DIALOG, pParent)
-{
+CDesktopToysDlg::CDesktopToysDlg(CWnd* pParent /*=NULL*/): CDialogEx(IDD_DESKTOPTOYS_DIALOG, pParent){
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 }
 
-void CDesktopToysDlg::DoDataExchange(CDataExchange* pDX)
-{
+void CDesktopToysDlg::DoDataExchange(CDataExchange* pDX){
 	CDialogEx::DoDataExchange(pDX);
 }
 
@@ -41,8 +38,7 @@ END_MESSAGE_MAP()
 
 // CDesktopToysDlg 消息处理程序
 
-BOOL CDesktopToysDlg::OnInitDialog()
-{
+BOOL CDesktopToysDlg::OnInitDialog(){
 	CDialogEx::OnInitDialog();
 
 	// 设置此对话框的图标。  当应用程序主窗口不是对话框时，框架将自动
@@ -73,10 +69,8 @@ BOOL CDesktopToysDlg::OnInitDialog()
 //  来绘制该图标。  对于使用文档/视图模型的 MFC 应用程序，
 //  这将由框架自动完成。
 
-void CDesktopToysDlg::OnPaint()
-{
-	if (IsIconic())
-	{
+void CDesktopToysDlg::OnPaint(){
+	if (IsIconic()){
 		CPaintDC dc(this); // 用于绘制的设备上下文
 
 		SendMessage(WM_ICONERASEBKGND, reinterpret_cast<WPARAM>(dc.GetSafeHdc()), 0);
@@ -92,8 +86,7 @@ void CDesktopToysDlg::OnPaint()
 		// 绘制图标
 		dc.DrawIcon(x, y, m_hIcon);
 	}
-	else
-	{
+	else{
 		//将截图绘制到窗口
 		HDC hdc = ::GetDC(GetSafeHwnd()); //获取窗口DC
 		Gdiplus::Graphics gh(hdc);
@@ -108,13 +101,11 @@ void CDesktopToysDlg::OnPaint()
 
 //当用户拖动最小化窗口时系统调用此函数取得光标
 //显示。
-HCURSOR CDesktopToysDlg::OnQueryDragIcon()
-{
+HCURSOR CDesktopToysDlg::OnQueryDragIcon(){
 	return static_cast<HCURSOR>(m_hIcon);
 }
 //处理按下ESC按键
-BOOL CDesktopToysDlg::PreTranslateMessage(MSG * pMsg)
-{
+BOOL CDesktopToysDlg::PreTranslateMessage(MSG * pMsg){
 	// 按下 'ESC'键时
 	if (pMsg->message == WM_KEYDOWN && pMsg->wParam == VK_ESCAPE) {
 		if (m_pGame->OnESC()) {
@@ -129,48 +120,42 @@ BOOL CDesktopToysDlg::PreTranslateMessage(MSG * pMsg)
 
 
 
-void CDesktopToysDlg::OnLButtonDown(UINT nFlags, CPoint point)
-{
+void CDesktopToysDlg::OnLButtonDown(UINT nFlags, CPoint point){
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 	m_pGame->OnLButtonDown(nFlags, point);
 	CDialogEx::OnLButtonDown(nFlags, point);
 }
 
 
-void CDesktopToysDlg::OnLButtonUp(UINT nFlags, CPoint point)
-{
+void CDesktopToysDlg::OnLButtonUp(UINT nFlags, CPoint point){
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 	m_pGame->OnLButtonUp(nFlags, point);
 	CDialogEx::OnLButtonUp(nFlags, point);
 }
 
 
-void CDesktopToysDlg::OnRButtonDown(UINT nFlags, CPoint point)
-{
+void CDesktopToysDlg::OnRButtonDown(UINT nFlags, CPoint point){
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 	m_pGame->OnRButtonDown(nFlags,point);
 	CDialogEx::OnRButtonDown(nFlags, point);
 }
 
 
-void CDesktopToysDlg::OnRButtonUp(UINT nFlags, CPoint point)
-{
+void CDesktopToysDlg::OnRButtonUp(UINT nFlags, CPoint point){
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 	m_pGame->OnRButtonUp(nFlags, point);
 	CDialogEx::OnRButtonUp(nFlags, point);
 }
 
 
-void CDesktopToysDlg::OnMouseMove(UINT nFlags, CPoint point)
-{
+void CDesktopToysDlg::OnMouseMove(UINT nFlags, CPoint point){
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 	m_pGame->OnMouseMove(nFlags, point);
 	CDialogEx::OnMouseMove(nFlags, point);
 }
 
 
-void CDesktopToysDlg::OnTimer(UINT_PTR nIDEvent)
-{
+void CDesktopToysDlg::OnTimer(UINT_PTR nIDEvent){
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 	m_pGame->EnterFrame(0);  //进入游戏帧
 	CDialogEx::OnTimer(nIDEvent);

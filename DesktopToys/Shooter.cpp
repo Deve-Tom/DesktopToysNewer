@@ -2,11 +2,6 @@
 #include "Shooter.h"
 
 
-CShooter::CShooter()
-{
-}
+CShooter::CShooter(){}
 
-
-CShooter::~CShooter()
-{
-}
+CShooter::~CShooter(){}

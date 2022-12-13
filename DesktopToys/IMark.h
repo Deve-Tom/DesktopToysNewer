@@ -1,8 +1,6 @@
 #pragma once
 #include "IDrawable.h"
-class IMark :
-	public IDrawable
-{
+class IMark :public IDrawable{
 public:
 	IMark();
 	virtual ~IMark();

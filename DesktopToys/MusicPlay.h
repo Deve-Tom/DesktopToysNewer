@@ -1,8 +1,7 @@
 #pragma once
 #include <mmsystem.h>
 #pragma comment(lib, "WINMM.LIB")
-class MusicPlay
-{
+class MusicPlay{
 public:
 	enum class status {
 		ninjaShock,//»Ã’ﬂ≈Á∆·“Ù¿÷

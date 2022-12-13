@@ -2,11 +2,6 @@
 #include "IMouseAction.h"
 
 
-IMouseAction::IMouseAction()
-{
-}
+IMouseAction::IMouseAction(){}
 
-
-IMouseAction::~IMouseAction()
-{
-}
+IMouseAction::~IMouseAction(){}

@@ -1,10 +1,7 @@
 #pragma once
 #include "IMark.h"
-/*
-飞镖类
-*/
-class CShooter0Mark:public IMark
-{
+/*飞镖类*/
+class CShooter0Mark:public IMark{
 public:
 	CShooter0Mark(float x,float y);
 	virtual ~CShooter0Mark();
@@ -15,7 +12,7 @@ public:
 
 private:
 	std::vector<Image *>m_img;//图片
-	size_t m_index{ 0 }; //第几幅图片,随机生成
-	float m_dir;  //旋转的角度
+	size_t m_index{ 0 };//第几幅图片,随机生成
+	float m_dir;//旋转的角度
 };
 

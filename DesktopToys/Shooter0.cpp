@@ -2,8 +2,7 @@
 #include "Shooter0.h"
 #include <cmath>
 
-CShooter0::CShooter0()
-{
+CShooter0::CShooter0(){
 	//载入图片
 	m_vImage.push_back(Image::FromFile( 
 		_T("images/Foton The Desktop Hero 静.png")));
@@ -45,9 +44,9 @@ CShooter0::CShooter0()
 		_T("images/Foton The Desktop Hero Right Fire 03.png")));
 	m_vImage.push_back(Image::FromFile(
 		_T("images/Foton The Desktop Hero Right Fire 04.png")));
-	// 设置本类的大小
+	//设置本类的大小
 	RectF rc;
-	rc.Width = (float)m_vImage[0]->GetWidth(); //直接用第一张图片的大小
+	rc.Width = (float)m_vImage[0]->GetWidth();//直接用第一张图片的大小
 	rc.Height = (float)m_vImage[0]->GetHeight();
 	rc.X = 800.0f;
 	rc.Y = 600.0f;
@@ -55,28 +54,25 @@ CShooter0::CShooter0()
 }
 
 
-CShooter0::~CShooter0()
-{
-}
+CShooter0::~CShooter0(){}
 
-void CShooter0::Draw(Gdiplus::Graphics & gh)
-{
+void CShooter0::Draw(Gdiplus::Graphics & gh){
 	switch (m_eStatus) {
 	case EStatus0: {
-		// 当前阶段，机器上下晃动
-		// 设置显示的图片
+		//当前阶段，机器上下晃动
+		//设置显示的图片
 		m_index = 0;
-		// 判断时间
+		//判断时间
 		if (m_timer0.IsTimeval()) {
 			m_bUp = !m_bUp;
 			if (m_bUp) {
-				// 位置向上移
+				//位置向上移
 				auto pt = GetCenterPos();
 				pt.Y += 1.0f;
 				SetCenterPos(pt);
 			}
 			else {
-				// 位置向下移
+				//位置向下移
 				auto pt = GetCenterPos();
 				pt.Y -= 1.0f;
 				SetCenterPos(pt);
@@ -85,59 +81,59 @@ void CShooter0::Draw(Gdiplus::Graphics & gh)
 		gh.DrawImage(m_vImage[m_index], GetRect());
 		break;
 	}
-	case EStatusMove0: {			// 移动 向右	画向右的图片
+	case EStatusMove0: {//移动向右 画向右的图片
 		m_index = 1 + (EStatusMove0 - EStatusMove0);
 		gh.DrawImage(m_vImage[m_index], GetRect());
 		DrawMove(gh);
 		break;
 	}
-	case EStatusMove1: {			// 移动 右上	画右上的图片
+	case EStatusMove1: {//移动右上 画右上的图片
 		m_index = 1 + (EStatusMove1 - EStatusMove0);
 		gh.DrawImage(m_vImage[m_index], GetRect());
 		DrawMove(gh);
 		break;
 	}
-	case EStatusMove2: {			// 移动 向上	画向上的图片
+	case EStatusMove2: {//移动向上 画向上的图片
 		m_index = 1 + (EStatusMove2 - EStatusMove0);
 		gh.DrawImage(m_vImage[m_index], GetRect());
 		DrawMove(gh);
 		break;
 	}
-	case EStatusMove3: {			// 移动 左上	画左上的图片
+	case EStatusMove3: {//移动左上 画左上的图片
 		m_index = 1 + (EStatusMove3 - EStatusMove0);
 		gh.DrawImage(m_vImage[m_index], GetRect());
 		DrawMove(gh);
 		break;
 	}
-	case EStatusMove4: {			// 移动 向左	画向左的图片
+	case EStatusMove4: {//移动向左 画向左的图片
 		m_index = 1 + (EStatusMove4 - EStatusMove0);
 		gh.DrawImage(m_vImage[m_index], GetRect());
 		DrawMove(gh);
 		break;
 	}
-	case EStatusMove5: {			// 移动左下	画向右的图片
+	case EStatusMove5: {//移动左下 画向右的图片
 		m_index = 1 + (EStatusMove5 - EStatusMove0);
 		gh.DrawImage(m_vImage[m_index], GetRect());
 		DrawMove(gh);
 		break;
 	}
-	case EStatusMove6: {			// 移动 向下	画向下的图片
+	case EStatusMove6: {//移动向下 画向下的图片
 		m_index = 1 + (EStatusMove6 - EStatusMove0);
 		gh.DrawImage(m_vImage[m_index], GetRect());
 		DrawMove(gh);
 		break;
 	}
-	case EStatusMove7: {			// 移动 右下	画右下的图片
+	case EStatusMove7: {//移动右下 画右下的图片
 		m_index = 1 + (EStatusMove7 - EStatusMove0);
 		gh.DrawImage(m_vImage[m_index], GetRect());
 		DrawMove(gh);
 		break;
 	}
-	case EStatusFireLeft: {		// 向左开火
+	case EStatusFireLeft: {//向左开火
 		DrawFire(gh);
 		break;
 	}
-	case EStatusFireRight: {		// 向右开火
+	case EStatusFireRight: {//向右开火
 		DrawFire(gh);
 		break;
 	}
@@ -147,8 +143,7 @@ void CShooter0::Draw(Gdiplus::Graphics & gh)
 }
 
 
-void CShooter0::DrawMove(Gdiplus::Graphics & gh)
-{
+void CShooter0::DrawMove(Gdiplus::Graphics & gh){
 	//只更新位置，直到到达为止
 
 	//如果到达,更新状态
@@ -157,22 +152,21 @@ void CShooter0::DrawMove(Gdiplus::Graphics & gh)
 		return;
 	}
 
-	// 否则移动忍者
+	//否则移动忍者
 	PointF pt = GetCenterPos();
 	pt.X += 20.0f * cos(PI(2.0f) - m_moveDir);
 	pt.Y += 20.0f * sin(PI(2.0f) - m_moveDir);
 
-	// 移动后设置中心位置
+	//移动后设置中心位置
 	SetCenterPos(pt);
 }
 
-void CShooter0::DrawFire(Gdiplus::Graphics & gh)
-{
-	// 画图片
+void CShooter0::DrawFire(Gdiplus::Graphics & gh){
+	//画图片
 	switch (m_eStatus) {
 	case EStatusFireLeft: {
 		switch (m_index_fire) {
-		case 0: { 					// 小人转身
+		case 0: {//小人转身
 			auto img = m_vImage[10];
 			RectF r = GetRect();
 			r.Width = (float)img->GetWidth();
@@ -180,7 +174,7 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 			gh.DrawImage(img, r);
 			break;
 		}
-		case 1: {						// 聚集能量
+		case 1: {//聚集能量
 			auto img = m_vImage[11];
 			RectF r = GetRect();
 			r.Width = (float)img->GetWidth();
@@ -188,7 +182,7 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 			gh.DrawImage(img, r);
 			break;
 		}
-		case 2: { 					// 聚集能量
+		case 2: { //聚集能量
 			auto img = m_vImage[12];
 			RectF r = GetRect();
 			r.Width = (float)img->GetWidth();
@@ -196,13 +190,13 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 			gh.DrawImage(img, r);
 			break;
 		}
-		case 3: { 					// 发射子弹
-									// 射击开始:发出一个子弹
+		case 3: {//发射子弹
+		//射击开始:发出一个子弹
 			g_game->Append(std::make_shared<CShooter0Mark>(
 				m_fireTo.X, GetRect().Y));
 			/* break **** 注意此处没有break ****; */
 		}
-		case 4: {						// 发射激光
+		case 4: {//发射激光
 			const float Y = GetRect().Y;
 			const float X = GetRect().X;
 
@@ -210,17 +204,17 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 			const float XX = m_fireTo.X + 30.0f;
 
 
-			// 画小人身体，动作
+			//画小人身体，动作
 			{
 				auto img = m_vImage[13];
 				gh.DrawImage(img, X, Y);
 			}
 
-			// 画激光中间部分
+			//画激光中间部分
 			{
 				auto img = m_vImage[9];
 				float left = X + 52;
-				// 拼接图片进行输出,因为中间部分长度不确定,不能事先确定图片的长度
+				//拼接图片进行输出,因为中间部分长度不确定,不能事先确定图片的长度
 				while (left >= (XX + 60.0f)) {
 					gh.DrawImage(img, left, Y, (float)img->GetWidth(),
 						(float)img->GetHeight());
@@ -228,20 +222,20 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 				}
 			}
 
-			// 画击中部分
+			//画击中部分
 			{
-				// 这个要根据鼠标的左键画图
+				//这个要根据鼠标的左键画图
 				auto img = m_vImage[14];
-				gh.DrawImage(img, XX, Y); 	// 画出图片
+				gh.DrawImage(img, XX, Y); //画出图片
 			}
 			break;
 		}
-		case 5: { 						// 再转身回去
+		case 5: {//再转身回去
 			auto img = m_vImage[10];
 			RectF r = GetRect();
 			r.Width = (float)img->GetWidth();
 			r.Height = (float)img->GetHeight();
-			gh.DrawImage(img, r);			// 画出图片
+			gh.DrawImage(img, r);//画出图片
 			break;
 		}
 		case 6: {
@@ -256,7 +250,7 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 	}
 	case EStatusFireRight: {
 		switch (m_index_fire) {
-		case 0: {							// 小人转身
+		case 0: {//小人转身
 			auto img = m_vImage[15];
 			RectF r = GetRect();
 			r.Width = (float)img->GetWidth();
@@ -264,7 +258,7 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 			gh.DrawImage(img, r);
 			break;
 		}
-		case 1: {							// 聚集能量
+		case 1: {//聚集能量
 			auto img = m_vImage[16];
 			RectF r = GetRect();
 			r.Width = (float)img->GetWidth();
@@ -272,7 +266,7 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 			gh.DrawImage(img, r);
 			break;
 		}
-		case 2: {							// 聚集能量
+		case 2: {//聚集能量
 			auto img = m_vImage[17];
 			RectF r = GetRect();
 			r.Width = (float)img->GetWidth();
@@ -280,8 +274,8 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 			gh.DrawImage(img, r);
 			break;
 		}
-		case 3: {							// 发射子弹
-											// 射击开始:发出一个子弹
+		case 3: {// 发射子弹
+			// 射击开始:发出一个子弹
 			g_game->Append(std::make_shared<CShooter0Mark>(
 				m_fireTo.X, GetRect().Y));
 		}
@@ -291,14 +285,14 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 
 			const float YY = Y;
 			const float XX = m_fireTo.X - m_vImage[19]->GetWidth() + 30.0f;
-			// 画小人身体，动作
+			//画小人身体，动作
 			{
 				auto img = m_vImage[18];
 				gh.DrawImage(img, X, Y, (float)m_vImage[18]->GetWidth(),
 					(float)m_vImage[18]->GetHeight());
 			}
 
-			// 画激光中间部分
+			//画激光中间部分
 			{
 				auto img = m_vImage[9];
 				float left = X + 50;
@@ -310,9 +304,9 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 				}
 			}
 
-			// 画击中部分
+			//画击中部分
 			{
-				// 这个要根据鼠标的左键画图
+				//这个要根据鼠标的左键画图
 				auto img = m_vImage[19];
 				gh.DrawImage(img, XX, Y,
 					(float)m_vImage[19]->GetWidth(),
@@ -341,8 +335,8 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 		break;
 	}
 
-	// 判断状态
-	if (m_timerFire.IsTimeval()) {	// 如果时间间隔到达,才进行切换状态的操作,这样是为防止速度过快
+	//判断状态
+	if (m_timerFire.IsTimeval()) {//如果时间间隔到达,才进行切换状态的操作,这样是为防止速度过快
 		int times = m_timerFire.GetTimes();
 		if (times > 6) {
 			m_index_fire = 6;
@@ -367,27 +361,26 @@ void CShooter0::DrawFire(Gdiplus::Graphics & gh)
 		}
 	}
 }
-bool CShooter0::OnLButtonDown(UINT nFlags, CPoint point)
-{
-	// 根据当前位置，和点击位置计算角度
+bool CShooter0::OnLButtonDown(UINT nFlags, CPoint point){
+	//根据当前位置，和点击位置计算角度
 	PointF ptCenter = GetCenterPos();
-	// 点击位置,由传入的point变量确定
+	//点击位置,由传入的point变量确定
 	PointF ptDest(static_cast<float>(point.x), static_cast<float>(point.y));
 
-	// 记录移动的目的地
+	//记录移动的目的地
 	m_moveTo = ptDest;
 
-	// 计算夹角
+	//计算夹角
 	float theta = std::atan2<float>(-(ptDest.Y - ptCenter.Y),
 		ptDest.X - ptCenter.X);
 	if (theta < 0.0f) {
 		theta = PI(2.0f) + theta;
 	}
 
-	// 记录移动的方向
+	//记录移动的方向
 	m_moveDir = theta;
 
-	// 平面直角坐标系统分成8分，当 角度落在某个区间时，分别处理(如：显示不同的图片)
+	// 平面直角坐标系统分成8分，当角度落在某个区间时，分别处理(如：显示不同的图片)
 	float a_per = PI(2.0f / 8.0f); /* 2PI / 8 */
 	float a_per_half = (a_per / 2.0f);
 	float a_start = -a_per_half;
@@ -401,40 +394,39 @@ bool CShooter0::OnLButtonDown(UINT nFlags, CPoint point)
 			break;
 		}
 	}
-	// 直接落入第8个位置;
+	//直接落入第8个位置;
 	if (i == 7) {
 		// 设置当前的状态
 		m_eStatus = (EStatus)(i + EStatusMove0);
 		return true;
 	}
 
-	// 这里是不可能走到的
+	//这里是不可能走到的
 	return false;
 }
 
-bool CShooter0::OnRButtonDown(UINT nFlags, CPoint point)
-{
-	// 根据当前位置，和点击位置计算射击距离等
+bool CShooter0::OnRButtonDown(UINT nFlags, CPoint point){
+	//根据当前位置，和点击位置计算射击距离等
 	PointF ptCenter = GetCenterPos();
-	// 点击位置
+	//点击位置
 	PointF ptDest(static_cast<float>(point.x), static_cast<float>(point.y));
 
-	// 记录鼠标点击的位置，也是开火目的地
+	//记录鼠标点击的位置，也是开火目的地
 	m_fireTo = ptDest;
 
-	// 向右开火
+	//向右开火
 	if (ptDest.X > ptCenter.X) {
 		MusicPlay::playMusic(MusicPlay::status::ninjaShock);
 		m_eStatus = EStatusFireRight;
 	}
-	// 向左开火
+	//向左开火
 	else {
 		MusicPlay::playMusic(MusicPlay::status::ninjaShock);
 		m_eStatus = EStatusFireLeft;
 	}
-	// 重新开始计时
+	//重新开始计时
 	m_timerFire.Restart();
-	// 重置帧序号
+	//重置帧序号
 	m_index_fire = 0;
 
 	return true;
