@@ -49,7 +49,7 @@ BOOL CDesktopToysDlg::OnInitDialog(){
 	// TODO: 在此添加额外的初始化代码
 	//获取屏幕 分辨率
 	int w = GetSystemMetrics(SM_CXSCREEN);
-	int y= GetSystemMetrics(SM_CYSCREEN);
+	int y = GetSystemMetrics(SM_CYSCREEN);
 	//布满全屏
 	{
 		MoveWindow(0, 0, w, y);

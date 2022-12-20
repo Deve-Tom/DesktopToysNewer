@@ -1,6 +1,10 @@
-# DesktopToysImage-master
+# DesktopToysNewer
 
-## 项目更改
+## 环境配置
+
+该项目需要使用Visual Studio 2017 - Windows XP(v141_p)平台工具集，新版本可在项目属性之中找到对应更改的地方
+
+## 项目优化
 
 本项目在原有的基础上增添了MusicPlay类，用来给该项目增添音乐，该类的定义如下：
 
